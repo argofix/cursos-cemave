@@ -8,7 +8,7 @@ output:
     social: ["menu"]
     navbar:
         - { icon: "fa-instagram", href: "https://www.instagram.com/icmbio.cemave/?hl=pt", align: right }
-runtime: shiny
+#runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
@@ -699,7 +699,7 @@ Row {data-height=700}
 
 ```{r }
 
-renderLeaflet({
+#renderLeaflet({
     
 
 mapa_cursos <- cursos %>% mutate(popup_info = paste ("Treinamento:", nome.curso, "<br/>", "Realizado em:", ano, "<br/>", "Local:", local.curso, "<br/>", "Cidade:", municipio, "<br/>","Estado:", UF, "<br/>", "Modalidade:", modalidade, "<br/>", "Duração em dias:", duracao.dias, "<br/>", "Carga Horária:", carga.horaria)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
@@ -707,7 +707,7 @@ mapa_cursos <- cursos %>% mutate(popup_info = paste ("Treinamento:", nome.curso,
 
 leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_cursos, lat = ~latitude, lng = ~longitude, radius = ~3, color = "#00240B", popup = ~popup_info) # inserindo a janela popup no código
 
-})
+#})
 
 ```
 
@@ -716,7 +716,7 @@ leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_cursos, lat = ~latitude,
 
 ```{r}
 
-renderLeaflet({
+#renderLeaflet({
     
 
 mapa_alunos <- cursos.alunos %>% mutate(popup_info = paste ("Aluno:", participantes.y, "<br/>", "Curso:", nome.curso, "<br/>", "Ano de participação:", ano.y, "<br/>", "Instituição de origem:", instituicao, "<br/>", "Local de origem:", municipio.y, "<br/>","UF:", UF.y)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
@@ -724,7 +724,7 @@ mapa_alunos <- cursos.alunos %>% mutate(popup_info = paste ("Aluno:", participan
 
 leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_alunos, lat = ~latitude.y, lng = ~longitude.y, radius = ~3, color = "#1F0AFF", popup = ~popup_info) # inserindo a janela popup no código
 
-})
+#})
 
 ```
 
@@ -732,7 +732,8 @@ leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_alunos, lat = ~latitude.
 ### Origem dos instrutores
 
 ```{r}
-renderLeaflet({
+
+#renderLeaflet({
     
 
 mapa_instrutores <- cursos.instrutores1 %>% mutate(popup_info = paste ("Instrutores:", instrutores.origem, "<br/>", "Curso:", nome.curso, "<br/>", "Ano de participação:", ano.y, "<br/>", "Instituição de origem:", instituicao, "<br/>", "Local de origem:", municipio.y, "<br/>","UF:", UF.y)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
@@ -740,7 +741,7 @@ mapa_instrutores <- cursos.instrutores1 %>% mutate(popup_info = paste ("Instruto
 
 leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_instrutores, lat = ~latitude.y, lng = ~longitude.y, radius = ~3, color = "#EB0000", popup = ~popup_info) # inserindo a janela popup no código
 
-})
+#})
 
 ```
 
