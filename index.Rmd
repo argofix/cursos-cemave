@@ -693,7 +693,7 @@ ggplotly(G17)
 Espacialização
 ===
 
-Row {data-height=700}
+Row {data-height=750}
 -------------------------------------------------------------------
 
 ### Onde os cursos foram ministrados
@@ -746,7 +746,7 @@ leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_instrutores, lat = ~lati
 ```
 
 
-Row {data-height=300}
+Row {data-height=250}
 ----------------
 
 ```{r}
@@ -762,7 +762,7 @@ Sobre
 ========================================
 
 
-Column (data-width=500)
+Column 
 ------------------------------------------------------------------
 
 ### Relatório
