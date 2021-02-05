@@ -1,0 +1,890 @@
+ID;ano;participantes;categoria;categ;genero;instituicao;tipo.inst;tipos.inst;municipio;UF;regiao;pais;latitude;longitude
+1;1993;Alexandre Moraes da Silva;Aluno;A;M;Secretaria Municipal de Meio Ambiente;2;orgao-ambiental;Niterói;RJ;Sudeste;Brasil;-22.896452;-43.075823
+1;1993;Ana Cristina Mendo;Aluno;A;M;Universidade Federal de Mato Grosso do Sul - UFMS;1;ensino-pesquisa;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+1;1993;Augusto João Piratelli;Aluno;A;M;Universidade Federal de Mato Grosso do Sul - UFMS ;1;ensino-pesquisa;Trê Lagoas;MS;Centro-Oeste;Brasil;-20.788679;-51.710001
+1;1993;Carmen Quiroga Oropeza;Aluno;A;M;Museo Nacional de Historia Natural - MNHN;3;museus-afins;La Paz;;;Bolívia;-16.489575;-68.118937
+1;1993;Darci Caetano dos Santos;Aluno;A;M;Polícia Militar Florestal;4;forças-segurança;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+1;1993;Flora Auxiliadora Ximenes ;Aluna;A;F;Universidade Federal de Mato Grosso do Sul - UFMS;1;ensino-pesquisa;Corumbá;MS;Centro-Oeste;Brasil;-19.006375;-57.648985
+1;1993;Henrique Rajão;Aluno;A;M;Universidade Federal do Rio de Janeiro - UFRJ;1;ensino-pesquisa;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+1;1993;José Eduardo Albernaz;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-SUPES-SP;2;orgao-ambiental;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+1;1993;Lilsa Maria Ozório;Aluna;A;F;Instituto Estadual de Florestas - IEF;2;orgao-ambiental;Belo Horizonte ;MG;Sudeste;Brasil;-19.937524;-43.926453
+1;1993;Marina Anciães;Aluna;A;F;Universidade de Brasília - UNB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+1;1993;Rodiney de Arruda Mauro;Aluno;A;M;Empresa Brasileira de Pesquisa Agropecuária - Embrapa;1;ensino-pesquisa;Corumbá;MS;Centro-Oeste;Brasil;-19.006375;-57.648985
+1;1993;Sabrina Dall Agnol;Aluna;A;F;Museu de Zoologia da Universidade do Vale do Rio dos Sinos - UNISINOS;3;museus-afins;São Leopoldo;RS;Sul;Brasil;-29.765867;-51.146235
+1;1993;Sandro Gameiro Macedo;Aluno;A;M;Universidade Católica de Pelotas - UCPEL;1;ensino-pesquisa;Pelotas;RS;Sul;Brasil;-31.719598;-52.34432
+1;1993;Thereza Christina S. Anacleto;Aluna;A;F;Horto Zoobotânico de Dois Irmãos ;3;museus-afins;Recife;PE;Nordeste;Brasil;-8.062762;-34.888942
+1;1993;Vicent Kurt Lo;Aluno;A;M;Secretaria Estadual de Meio Ambiente ;2;orgao-ambiental;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+2;1999;Ana Maria Gealh;Aluna;A;F;;;;;RS;Sul;Brasil;;
+2;1999;Antônio Coêlho da Silva;Aluno;A;M;;;;;TO;Norte;Brasil;;
+2;1999;Beatriz Marti Emygdio;Aluna;A;F;;;;;RS;Sul;Brasil;;
+2;1999;Cecília Irene Perez Calabuig;Aluna;A;F;;;;;RS;Sul;Brasil;;
+2;1999;Claiton Martins Ferreira;Aluno;A;M;;;;;RS;Sul;Brasil;;
+2;1999;Cristiano Dosualdo Rocha;Aluno;A;M;;;;;SP;Sudeste;Brasil;;
+2;1999;Daniela de Andrade Nogueira;Aluna;A;F;;;;;MG;Sudeste;Brasil;;
+2;1999;Edmar Lima Oliveira;Aluno;A;M;;;;;AP;Norte;Brasil;;
+2;1999;Gustavo Vernardino Mallaco da Silva;Aluno;A;M;;;;;MG;Sudeste;Brasil;;
+2;1999;Leonardo de Almeida Amado;Aluno;A;M;;;;;RJ;Sudeste;Brasil;;
+2;1999;Marcelo Luiz Marques Menezes;Aluno;A;M;;;;;RS;Sul;Brasil;;
+2;1999;Tatiana Bichara Dantas;Aluna;A;F;;;;;BA;Nordeste;Brasil;;
+3;1997;Antônio Carlos Duarte de Souza;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-SUPES-AL;2;orgao-ambiental;Maceió;AL;Nordeste;Brasil;-9.660822;-35.70163
+3;1997;Deraldo Lopes de Almeida;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-SUPES-AL;2;orgao-ambiental;Maceió;AL;Nordeste;Brasil;-9.660822;-35.70163
+3;1997;José Kleber da Fonseca;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-SUPES-AL;2;orgao-ambiental;Maceió;AL;Nordeste;Brasil;-9.660822;-35.70163
+3;1997;Kércia Valéria Alencar Araújo de Carvalho;Aluna;A;F;;;;Goiânia;GO;Centro-Oeste;Brasil;-16.67331;-49.255814
+3;1997;Dulcilene Santos Andrade Lima;Aluna;A;F;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama - SUPES-GO;2;orgao-ambiental;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+3;1997;Rita de Cássia Surrage;Aluna;A;F;;;;Natal;RN;Nordeste;Brasil;-5.750899;-35.252255
+3;1997;Josivan Rabêlo;Aluno;A;M;;;;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+3;1997;Nílton Guerra Oliveira;Aluno;A;M;;;;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+3;1997;Raimundo Pereira da Cruz;Aluno;A;M;;;;Boa Vista;RR;Norte;Brasil;2.816682;-60.670533
+3;1997;Rogério Santos Araújo;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-SUPES-ES;2;orgao-ambiental;Vitória;ES;Sudeste;Brasil;-20.320154;-40.322209
+3;1997;Miton Isidorio Neves;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-ESREG Leopoldina;2;orgao-ambiental;Leopoldina;MG;Sudeste;Brasil;-21.530729;-42.641844
+3;1997;Valter José da Silveira;Aluno;A;M;Colônia Agrícola Samambaia;5;terceiro-setor;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+3;1997;Edson Lima;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+3;1997;Rogério Brito de Miranda;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+3;1997;Waldeci Ramalho;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+3;1997;Gregório Lopes de Abreu Filho;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+3;1997;José Jardim de Brito;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+3;1997;Edson Augusto de Oliveira;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+3;1997;Flávio de Souza Soares;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+3;1997;Francisco Segundo Dantas Diniz;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-SUPES-RN;2;orgao-ambiental;Natal;RN;Nordeste;Brasil;-5.750899;-35.252255
+4;1996;Adriana Luzia Pereira Vianna;Aluna;A;F;;;;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+4;1996;Celine de Melo;Aluna;A;F;;;;Uberlândia;MG;Sudeste;Brasil;-18.918999;-48.27795
+4;1996;Cristina Oishi;Aluna;A;F;;;;Campinas;SP;Sudeste;Brasil;-22.907343;-47.060156
+4;1996;Érika de Freitas Pereira;Aluna;A;F;;;;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+4;1996;Francisco Mallet-Rodrigues;Aluno;A;M;;;;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+4;1996;Juan Marcelo Hinojosa-Ballivián;Aluno;A;M;;;;La Paz;;;Bolívia;-16.489575;-68.118937
+4;1996;Lilian Patrícia Pinto;Aluna;A;F;;;;Cuiabá;MT;Centro-Oeste;Brasil;-15.569989;-56.073252
+4;1996;Marcos Maldonado Coelho;Aluno;A;M;;;;Belo Horizonte ;MG;Sudeste;Brasil;-19.937524;-43.926453
+4;1996;Mariana de Santana Pinho;Aluna;A;F;;;;Camaçari;BA;Nordeste;Brasil;-12.698817;-38.32574
+4;1996;Genilda Maria de Oliveira;Aluna;A;F;;;;Araguari;MG;Sudeste;Brasil;-18.64827;-48.191605
+4;1996;Robson Silva e Silva;Aluno;A;M;;;;Santos;SP;Sudeste;Brasil;-23.933738;-46.331371
+4;1996;Tarcýsio Lyra ddos Santos;Aluno;A;M;;;;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+4;1996;Márcia Regina Pereira;Aluna;A;F;Universidade Federal de Mato Grosso do Sul - UFMS;1;ensino-pesquisa;Birigui;SP;Sudeste;Brasil;-21.292392;-50.339329
+4;1996;Waldir Leonel;Aluno;A;M;Universidade Federal de Mato Grosso do Sul - UFMS;1;ensino-pesquisa;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+6;2011;Ademir Mariano;Aluno;A;M;ICMBio - PARNA do Juruena;2;orgao-ambiental;Alta Floresta;MT;Centro-Oeste;Brasil;-9.871723;-56.09161
+6;2011;Adriano Damato;Aluno;A;M;ICMBio - PARNA Lençóis Maranhenses;2;orgao-ambiental;Barreirinhas;MA;Nordeste;Brasil;-2.750086;-42.827803
+6;2011;André Gustavo Campos de Oliveira;Aluno;A;M;ICMBio - FLONA Jamari;2;orgao-ambiental;Itapuã do Oeste;RO;Norte;Brasil;-9.188186;-63.185777
+6;2011;Antonio Correia;Aluno;A;M;ICMBio - ESEC Mata Preta;2;orgao-ambiental;Palmas;RS;Sul;Brasil;-10.163253;-48.351044
+6;2011;Celso do Lago Paiva;Aluno;A;M;ICMBio - PARNA Serra do Cipó;2;orgao-ambiental;Jaboticatubas;MG;Sudeste;Brasil;-19.522289;-43.747334
+6;2011;Cleiton Adriano Signor;Aluno;A;M;ICMBio - RESEX Lago do Capanã Grande;2;orgao-ambiental;Manicoré;AM;Norte;Brasil;-5.813205;-61.299248
+6;2011;Eridiane Lopes da Silva;Aluna;A;F;ICMBio - APA do Ibirapuitã;2;orgao-ambiental;Santana do Livramento;RS;Sul;Brasil;-30.879787;-55.879787
+6;2011;Fabiana Messel;Aluna;A;F;ICMBio - REBIO Gurupi;2;orgao-ambiental;Bom Jardim;MA;Nordeste;Brasil;-3.544161;-45.601889
+6;2011;Gisele Silva de Medeiros;Aluna;A;F;ICMBio - ESEC de Jutaí-Solimões;2;orgao-ambiental;Tefé;AM;Norte;Brasil;-3.348372;-64.70842
+6;2011;José Tiago Almeida dos Santos ;Aluno;A;M;ICMBio - ESEC Raso da Catarina;2;orgao-ambiental;Paulo Afonso;BA;Nordeste;Brasil;-9.403332;-38.218329
+6;2011;Juliana Gonçalves;Aluna;A;F;ICMBio - PARNA Serra da Bocaina;2;orgao-ambiental;São José do Barreto;SP;Sudeste;Brasil;-22.643594;-44.579346
+6;2011;Kennedy Borges;Aluno;A;M;ICMBio - RESEX Lago do Cedro;2;orgao-ambiental;Aruanã;GO;Centro-Oeste;Brasil;-14.903332;-51.080885
+6;2011;Osmar Borges;Aluno;A;M;ICMBio - FLONA Contendas do Sincorá;2;orgao-ambiental;Boa Nova;BA;Nordeste;Brasil;-14.362608;-40.200522
+6;2011;Pablo Lacaze de Camargo Casella;Aluno;A;M;ICMBio - PARNA Chapada Diamantina;2;orgao-ambiental;Palmeiras;BA;Nordeste;Brasil;-12.510071;-41.577337
+6;2011;Paulo Cesar Bastos;Aluno;A;M;ICMBio - FLONA do Ibura;2;orgao-ambiental;Aracaju;SE;Nordeste;Brasil;-10.907216;-37.048213
+6;2011;Priscila Amaral;Aluna;A;F;ICMBio - PARNA Chapada dos Guimarães;2;orgao-ambiental;Cuiabá;MT;Centro-Oeste;Brasil;-15.569989;-56.073252
+6;2011;Tatiana Alves Fona e Franco;Aluna;A;F;ICMBio - RVS de Una;2;orgao-ambiental;Una;BA;Nordeste;Brasil;-15.294208;-39.074713
+6;2011;Vera Nanci Oliveira Carvalho;Aluna;A;F;ICMBio - RESEX Rio Xingu;2;orgao-ambiental;Altamira ;PA;Norte;Brasil;-3.20566;-52.214376
+7;2019;Adriano Antonio Brito Darosci;Aluno;A;M;IFGO;1;ensino-pesquisa;Goiânia;GO;Centro-Oeste;Brasil;-16.67331;-49.255814
+7;2019;Claudia Oliveira de Almeida;Aluna;A;F;;;;Guarulhos;SP;Sudeste;Brasil;-23.468506;-46.531084
+7;2019;Cristiano Marcelo da Silva Nascimento;Aluno;A;M;IFPB;1;ensino-pesquisa;Cabedelo;PB;Nordeste;Brasil;-6.966983;-34.83943
+7;2019;Deyse Dayanne Cosme Costa de Lima;Aluna;A;F;;;;Natal;RN;Nordeste;Brasil;-5.750899;-35.252255
+7;2019;Felipe D´Azeredo Torres;Aluno;A;M;PMP - BS;2;orgao-ambiental;Pontal do Paraná;RS;Sul;Brasil;-25.594151;-48.448327
+7;2019;Franciellen Tomaz Costa;Aluna;A;F;Prefeitura de Natal;2;orgao-ambiental;Natal;RN;Nordeste;Brasil;-5.750899;-35.252255
+7;2019;Jacqueline Aguiar Gonçalves;Aluna;A;F;IBAMA;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+7;2019;Januario da Conceição Junior;Aluno;A;M;UEMA- Caxias;1;ensino-pesquisa;Caxias;MA;Nordeste;Brasil;-4.861675;-43.358539
+7;2019;Lucas Rodrigues Bueno Godinho;Aluno;A;M;UFPB;1;ensino-pesquisa;João Pessoa;PB;Nordeste;Brasil;-7.149382;-34.873385
+7;2019;Mariana Carneiro de Andrade;Aluna;A;F;UFPB;1;ensino-pesquisa;João Pessoa;PB;Nordeste;Brasil;-7.149382;-34.873385
+7;2019;Mayara Olinto Vicente;Aluna;A;F;UFPB;1;ensino-pesquisa;Mamanguape;PB;Nordeste;Brasil;-6.833715;-35.123893
+7;2019;Natália dos Santos Falcão Saturnino;Aluna;A;F;UFPB;1;ensino-pesquisa;João Pessoa;PB;Nordeste;Brasil;-7.149382;-34.873385
+7;2019;Priscila Moraes da Silva;Aluna;A;F;PMP - BS;2;orgao-ambiental;Pontal do Paraná;RS;Sul;Brasil;-25.594151;-48.448327
+7;2019;Ricardo Duarte de Araújo;Aluno;A;M;INFRAMERICA Aeroporto de São Gonçalo do Amarantes;7;empresas;Natal;RN;Nordeste;Brasil;-5.750899;-35.252255
+7;2019;Thaís Abreu Camboim;Aluna;A;F;UFC;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+8;1989;Aderlene Inês de Lara;Aluna;A;F;;2;orgao-ambiental;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+8;1989;Ana Marise Hauer;Aluna;A;F;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+8;1989;Celso Seger;Aluno;A;M;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+8;1989;Cláudia Ribeiro;Aluna;A;F;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+8;1989;Dalila Ribeiro Viana;Aluna;A;F;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+8;1989;EmeSulon Suemitsu;Aluno;A;M;;;;;;;Brasil;;
+8;1989;Meron Halinki;Aluno;A;M;Itaipu Nacional;7;empresas;Foz do Iguaçu;PR;Sul;Brasil;-25.542493;-54.587102
+8;1989;Nelson Perez;Aluno;A;M;Itaipu Nacional;7;empresas;Foz do Iguaçu;PR;Sul;Brasil;-25.542493;-54.587102
+8;1989;Ralf Berndt;Aluno;A;M;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+8;1989;Sérgio D. Arruda;Aluno;A;M;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+8;1989;Sérgio Filipack;Aluno;A;M;Indústrias Kablin;7;empresas;Harmonia;Sul;Sul;Brasil;-29.549049;-51.41404
+8;1989;Silvana Cusaitis Luçolli;Aluna;A;F;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+8;1989;Viviane Coelho Petrelli;Aluna;A;F;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+10;1995;Elaine Folly amos;Aluna;A;F;;;;Barra Mansa;RJ;Sudeste;Brasil;-22.545301;-44.172431
+10;1995;Angelo José Rodrigues Lima;Aluno;A;M;;;;Barra Mansa;RJ;Sudeste;Brasil;-22.545301;-44.172431
+10;1995;José Ronaldo Sousa Almeida;Aluno;A;M;;;;Resende;RJ;Sudeste;Brasil;-22.471184;-44.443613
+10;1995;Maria de Fátima Santos Ferreira;Aluno;A;M;;;;Rio Claro;RJ;Sudeste;Brasil;-22.412512;-47.563533
+10;1995;Paulo Gustavo D'Almeida Souza;Aluno;A;M;;;;Nova Iguaçu;RJ;Sudeste;Brasil;-22.759835;-43.450345
+10;1995;Pedro Fortes Santos Bustamante;Aluno;A;M;Universidade Federal de Juiz de Fora - UFJF;1;ensino-pesquisa;Juiz de Fora ;MG;Sudeste;Brasil;-21.760924;-43.348817
+10;1995;Maria Luisa S. P. Jorge;Aluna;A;F;;;;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+10;1995;Ana Paula Carmignotto;Aluna;A;F;;;;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+10;1995;Rômulo Paiva Ribeiro de Sá;Aluno;A;M;;;;Juiz de Fora ;MG;Sudeste;Brasil;-21.760924;-43.348817
+10;1995;Maria do Carmo Silva;Aluna;A;F;;;;Barra Mansa;RJ;Sudeste;Brasil;-22.545301;-44.172431
+10;1995;Márcio Machado dos Santos;Aluno;A;M;;;;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+10;1995;Ana Paula Moura de Souza;Aluna;A;F;;;;São Gonçalo;RJ;Sudeste;Brasil;-22.829547;-43.032335
+10;1995;Carlos Bernardo Tavares Bom Tempo;Aluno;A;M;;;;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+10;1995;Lemuel Olívio Leite;Aluno;A;M;;;;Sabará;MG;Sudeste;Brasil;-19.892495;-43.825557
+10;1995;Deise Ferreira Barros;Aluna;A;F;;;;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+10;1995;Adriano Py Chludinski;Aluno;A;M;;;;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+10;1995;Agda Cristina Pereira dos Santos;Aluna;A;F;AVIDEPA;;;Vila Velha;ES;Sudeste;Brasil;-20.338374;-40.293957
+10;1995;Magaly Dolsan de Almeida;Aluna;A;F;;5;terceiro-setor;Itatiaia;RJ;Sudeste;Brasil;-22.497015;-44.562772
+10;1995;Beatriz Sulhubak Braga;Aluna;A;F;;;;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+10;1995;Eliane Nogueira Moreira;Aluna;A;F;;;;Barra Mansa;RJ;Sudeste;Brasil;-22.545301;-44.172431
+10;1995;Paulo José Fontanezi;Aluno;A;M;;;;Resende;RJ;Sudeste;Brasil;-22.471184;-44.443613
+12;1987;Antônio Carlos Venâncio;Aluno;A;M;Superintendência do Meio Ambiente - CVRD;7;empresas;Belém;PA;Norte;Brasil;-1.459845;-48.487826
+12;1987;Djalma Tomás;Aluno;A;M;Superintendência do Meio Ambiente - CVRD;7;empresas;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;Luiz Sérgio Rocha Duarte;Aluno;A;M;Superintendência do Meio Ambiente - CVRD;7;empresas;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;João Batista Figueiredo Mendes;Aluno;A;M;Instituto Brasileiro de Desenvolvimento Florestal - IBDF;2;orgao-ambiental;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;Antônio de Jesus Pacheco Santos;Aluno;A;M;;;;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;Glauco Antônio Cunha;Aluno;A;M;;;;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;Antônio Augusto Ferreira Rodrigues;Aluno;A;M;;;;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;Régia de Lourdes Ferreira Pacheco;Aluna;A;F;;;;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;Sílvio Gomes Monteiro;Aluno;A;M;;;;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;Cristina Monteiro de Andrade;Aluna;A;F;;;;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;Raquel Melo de Carvalho;Aluna;A;F;;;;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+12;1987;Simone Fraga Tenório Pereira;Aluna;A;F;;;;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+13;1991;Betty Flores;Aluna;A;F;"Museo de História Natural ""Noel Kempf Mercado""";3;museus-afins;Santa Cruz de La Sierra;;;Bolívia;-17.81232;-63.157511
+13;1991;Edilberto Guzmán Almendras;Aluno;A;M;;;;Santa Cruz de La Sierra;;;Bolívia;-17.81232;-63.157511
+13;1991;Eliezer José Marques;Aluno;A;M;Universidade Federal de Mato Grosso do Sul - UFMS;1;ensino-pesquisa;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+13;1991;Gilberto Soares do Couto;Aluno;A;M;;;;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+13;1991;Jerry Magno;Aluno;A;M;;;;Cuiabá;MT;Centro-Oeste;Brasil;-15.569989;-56.073252
+13;1991;José Benedito Perrela Balestieri;Aluno;A;M;Centro Universitário de Corumbá;1;ensino-pesquisa;Corumbá;MS;Centro-Oeste;Brasil;-19.006375;-57.648985
+13;1991;Karina Norma Cação;Aluna;A;F;;;;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+13;1991;Lívia Vanucci Lins;Aluna;A;F;;;;Belo Horizonte;MG;Sudeste;Brasil;-19.937524;-43.926453
+13;1991;Luiz Francisco Sanfilippo;Aluno;A;M;;;;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+13;1991;Luís Onofre Irineu de Souza;Aluno;A;M;;;;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+13;1991;Maria Dolores Carreno;Aluna;A;F;"Museu de Historia Natural ""Noel Kempf Mercado"" ";3;museus-afins;Santa Cruz de La Sierra;;;Bolívia;-17.81232;-63.157511
+13;1991;Marcos Antônio Amaral;Aluno;A;M;;;;Corumbá;MS;Centro-Oeste;Brasil;-19.006375;-57.648985
+13;1991;Masao Uetanabaro;Aluno;A;M;Universidade Federal de Mato Grosso do Sul - UFMS;1;ensino-pesquisa;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+13;1991;Pedro Ferreira Develey;Aluno;A;M;;;;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+13;1991;Omar Olívio Rocha Olívio;Aluno;A;M;Museo Nacional de Historia Natural;1;ensino-pesquisa;La Paz;;;Bolívia;-16.489575;-68.118937
+13;1991;Roberto Bóçon;Aluno;A;M;;;;Curitiba;Sul;Sul;Brasil;-25.432956;-49.271848
+13;1991;Selene Peixoto Albuquerque;Aluna;A;F;;;;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+13;1991;Sáuria Lúcia Rocha de Castro;Aluna;A;F;;;;Teodoro Sampaio;SP;Sudeste;Brasil;-22.531007;-52.171195
+14;1991;Cláudio Bellini;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-Centro TAMAR;2;orgao-ambiental;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;Cristiana Coimbra Aché Assumpção;Aluna;A;F;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-Centro TAMAR;2;orgao-ambiental;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;Eranani Rodrigues Sampaio Junior;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-Centro TAMAR;2;orgao-ambiental;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;Flávio José de Lima Silva;Aluno;A;M;Projeto Golfinho Rotador;5;terceiro-setor;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;Gerônimo Juvêncio Silva;Aluno;A;M;;;;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;Jorge Luiz Pereira da Silva;Aluno;A;M;;;;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;José Carlos Lopes;Aluno;A;M;;;;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;José Maurício Barbosa da Silva;Aluno;A;M;;;;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;Marcos Aurélio da Silva;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-PARNAMAR;2;orgao-ambiental;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;Maurizélia de Brito Silva;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-SUPES-RN;2;orgao-ambiental;Natal;RN;Nordeste;Brasil;-5.750899;-35.252255
+14;1991;Pedro Pereira de Melo;Aluno;A;M;;;;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+14;1991;Policarpo Tenório Felipe;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama-PARNAMAR;2;orgao-ambiental;Fernando de Noronha;PE;Nordeste;Brasil;-3.852021;-32.435186
+15;1981;Beloni Teresinha Pauli;Aluno;A;M;;;;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+15;1981;Carlos Taffarel;Aluno;A;M;;;;Sapucaia do Sul;RS;Sul;Brasil;-29.824868;-51.151875
+15;1981;Cláudio Agripino da Silva;Aluno;A;M;;;;Recife;PE;Nordeste;Brasil;-8.062762;-34.888942
+15;1981;Eni Garcia Gonçalves;Aluno;A;M;;;;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+15;1981;Gustavo Adolpho Leal Brandão;Aluno;A;M;Fundação Universidade do Rio Grande ;1;ensino-pesquisa;Rio Grande;RS;Sul;Brasil;-32.050446;-52.08677
+15;1981;Hamilton Cézar Zanardi Grillo;Aluno;A;M;;;;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+15;1981;Ildemar Ferreira;Aluno;A;M;Universidade Federal Rural do Rio de Janeiro - UFRRJ;1;ensino-pesquisa;Itaguaí;RJ;Sudeste;Brasil;-22.871251;-43.775041
+15;1981;Karla de Almeida Chediak;Aluna;A;F;;;;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+15;1981;Magda Seffrim Magalhães;Aluna;A;F;;;;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+15;1981;Maria Inês Burger Marques;Aluna;A;F;Museu de Ciências Naturais;3;museus-afins;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+15;1981;Naírio Simões Serpa;Aluno;A;M;SEMA - Coordenadoria de Ecossistemas;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+15;1981;Sérgio Lima Beck;Aluno;A;M;;;;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+15;1981;Sônia Maria Nascimento Moreira;Aluna;A;F;;;;Goiânia;GO;Centro-Oeste;Brasil;-16.67331;-49.255814
+15;1981;Wesley Rodrigues Silva;Aluno;A;M;;;;Jundiaí;SP;Sudeste;Brasil;-23.187668;-46.885274
+16;1982;Marco Antônio de Andrade;Aluno;A;M;;;;Belo Horizonte;MG;Sudeste;Brasil;-19.937524;-43.926453
+16;1982;Márcia Regina do Nascimento Gonçalves;Aluna;A;F;;;;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+16;1982;Marcus Vinícius de Freitas;Aluno;A;M;Sociedade Ornitológica Mineira;5;terceiro-setor;Belo Horizonte;MG;Sudeste;Brasil;-19.937524;-43.926453
+16;1982;Suzana Maria Cordeiro;Aluna;A;F;;;;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+16;1982;Alexandre Lima Godinho;Aluno;A;M;;;;Belo Horizonte ;MG;Sudeste;Brasil;-19.937524;-43.926453
+16;1982;Maria Ignez Ferolla;Aluna;A;F;;;;Belo Horizonte ;MG;Sudeste;Brasil;-19.937524;-43.926453
+16;1982;Pedro Scherer Neto;Aluno;A;M;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+16;1982;Lenir Alda do Rosário;Aluna;A;F;Fundação de Amparo à Tecnologia e ao Meio Ambiente - FATMA;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+16;1982;Haroldo Palo Junior;Aluno;A;M;;;;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+16;1982;Astrid Cristiane Richter;Aluno;A;M;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+16;1982;Ricardo Koch Cavalcanti;Aluno;A;M;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+16;1982;Flávio Silva;Aluno;A;M;Parque Zoológico de Sapucaia do Sul;3;museus-afins;Sapucaia do Sul;RS;Sul;Brasil;-29.824868;-51.151875
+16;1982;Maria Alice Fallavena;Aluna;A;F;Parque Zoológico de Sapucaia do Sul;3;museus-afins;Sapuacaia do Sul;RS;Sul;Brasil;-29.824868;-51.151875
+16;1982;Gabriel Augusto de Andrade;Aluno;A;M;;;;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+17;1978;Carlos Roberto Elias;Aluno;A;M;Instituto Adolfo Lutz;1;ensino-pesquisa;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+17;1978;Jorge Luiz B. Albuquerque;Aluno;A;M;;;;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+17;1978;Alexandre Vieira de Almeida;Aluno;A;M;Universidade Estadual do Rio de Janeiro - UERJ;1;ensino-pesquisa;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+17;1978;Antônio Cecílio Dias;Aluno;A;M;Instituto Florestal - IF;2;orgao-ambiental;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+17;1978;José Wellington Lemos;Aluno;A;M;;;;Goiânia;GO;Centro-Oeste;Brasil;-16.67331;-49.255814
+17;1978;Gilberto de Oliveira Aguiar;Aluno;A;M;Universidade Federal de Mato Grosso - UFMT;1;ensino-pesquisa;Cuiabá;MT;Centro-Oeste;Brasil;-15.569989;-56.073252
+17;1978;Sirlei Benneman;Aluna;A;F;Universidade Federal de Santa Maria - UFSM;1;ensino-pesquisa;Santa Maria;RS;Sul;Brasil;-29.685582;-53.808675
+17;1978;Luiz Octávio Marcondes Machado;Aluno;A;M;Universidade Estadual de Campinas - UNICAMP;1;ensino-pesquisa;Campinas;SP;Sudeste;Brasil;-22.907343;-47.060156
+17;1978;Severino Mendes de Azevedo Junior;Aluno;A;M;Universidade Federal Rural de Pernambuco - UFRPE;1;ensino-pesquisa;Recife;PE;Nordeste;Brasil;-8.062762;-34.888942
+17;1978;Elias Pacheco Coelho;Aluno;A;M;Universidade Federal do Rio de Janeiro - UFRJ;1;ensino-pesquisa;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+17;1978;Maria Luiza Videira Marceliano;Aluna;A;F;Museu Paraense Emílio Goeldi - MPEG;3;museus-afins;Belém;PA;Norte;Brasil;-1.459845;-48.487826
+17;1978;Flávio Silva;Aluno;A;M;Museu Riograndense de Ciências Naturais - MRCN;3;museus-afins;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+17;1978;Walter Alfredo Voss;Aluno;A;M;Parque Zoológico do Rio Grande do Sul - PZSul;3;museus-afins;São Leopoldo;RS;Sul;Brasil;-29.765867;-51.146235
+17;1978;Francisco Alves Dantas;Aluno;A;M;Universidade Federal da Paraíba - UFPB;1;ensino-pesquisa;João Pessoa;PB;Nordeste;Brasil;-7.149382;-34.873385
+17;1978;Belmira Lara da Silveira Andrade;Aluna;A;F;Universidade Federal Rural de Pernambuco - UFRPE;1;ensino-pesquisa;Recife;PE;Nordeste;Brasil;-8.062762;-34.888942
+17;1978;Tânia Rauh;Aluna;A;F;Fundação do Meio Ambiente - FATMA;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+17;1978;Luiz Antônio Gonzaga;Aluno;A;M;Museu Nacional - MN;3;museus-afins;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+18;2015;Ailton Degues;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Andressa Nuss;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Annamaria Bach Trevisan;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Aurélea Mader;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Bruno Teixeira Carpintero;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Camila de Fátima Coelho Gavião;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Carla Christina de Miranda Gomes Schlindwein;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Caroline Zank;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Cindy Tavares Barreto;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Cláudia Golec;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Cristiana Coimbra Sales Aché Assumpção;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Daiane Carvalho dos Santos;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Daniel de Araujo Costa;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Danilo Geraldo Filipkowski;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Dênis Aléssio Sana;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Dilson Vargas Peixoto;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Djoni Diosel Lopes;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Ellen Stroeh Mertens ;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Fabio Cavitione e Silva;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Hosana Maria Fonseca Piccardi;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Ivan Réus Viana;Aluno;A;M;;;;;;;Brasil;;
+18;2015;João Paulo Gava Just;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Laura Andréa Lindenmeyer de Sousa;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Ligia Jahn;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Max Farjallat Raffi ;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Mônica Emilia de Macedo;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Nicholas Winterle Daudt;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Patricia Xavier de Araújo Simão;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Rafael Spilere Romagna;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Raphael Vinícius Zulianello Alves;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Suzana Paz Martins;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Tiago João Cadorin;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Tycho Brahe Fernandes;Aluno;A;M;;;;;;;Brasil;;
+18;2015;Vanessa Rafaella Foletto da Silva;Aluna;A;F;;;;;;;Brasil;;
+18;2015;Vanessa Tavares Kanaan;Aluna;A;F;;;;;;;Brasil;;
+19;;Lenir Alda do Rosário;Aluna;A;F;Fundação do Meio Ambiente - FATMA;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+19;;Martin Sander;Aluno;A;M;Universidade do Vale do Rio dos Sinos - UNISINOS;1;ensino-pesquisa;São Leopoldo;RS;Sul;Brasil;-29.765867;-51.146235
+19;;Ênio Marcos Domingos da Silva;Aluno;A;M;Universidade de Brasília - UnB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+19;;Pedro Ernesto Correia Ventura;Aluno ;A ;M ;Universidade Federal do Rio de Janeiro;1;ensino-pesquisa;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+19;;Carlos Yamashita;Aluno ;A ;M ;Universidade de Brasília - UnB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+19;;Urussahy Cavalcanti Ribeiro;Aluno ;A ;M ;Universidade Federal da Paraíba - UFPB;1;ensino-pesquisa;João Pessoa;PB;Nordeste;Brasil;-7.149382;-34.873385
+19;;Norma Crud Maciel;Aluna;A;F;Fundação Estadual de Engenharia de Meio Ambiente - FEEMA;2;orgao-ambiental;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+19;;Valéria de Oliveira Pequeno;Aluna;A;F;Univesidade do Estado do Rio de Janeiro - UERJ;1;ensino-pesquisa;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+19;;Dalci Maurício Miranda de Oliveira;Aluno ;A ;M ;Universidade Federal de Mato Grosso;1;ensino-pesquisa;Cuiabá;MT;Centro-Oeste;Brasil;-15.569989;-56.073252
+19;;Pedro Scherer Neto;Aluno ;A ;M ;Instituto Agronômico do Paraná - IAPAR;1;ensino-pesquisa;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+19;;Élio Gouveia;Aluno ;A ;M ;Parque Nacional do Itatiaia;2;orgao-ambiental;Itatiaia;RJ;Sudeste;Brasil;-22.497015;-44.562772
+19;;Vera Lúcia Vieira do Nascimento;Aluna;A;F;Universidade Federal Rural de Pernambuco - UFRPE;1;ensino-pesquisa;Recife;PE;Nordeste;Brasil;-8.062762;-34.888942
+19;;Maria Ignez Perolla;Aluna;A;F;Universidade Federal de Minas Gerais - UFMG;1;ensino-pesquisa;Belo Horizonte;MG;Sudeste;Brasil;-19.937524;-43.926453
+19;;Júlio Lordello Gerassati;Aluno ;A ;M ;Esclola Superior de Agricultura Luiz de Queiróz - ESALQ/USP;1;ensino-pesquisa;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+20;;Aluno 01;Aluno;A;;;;;;;;Argentina;;
+20;;Aluno 02;Aluno;A;;;;;;;;Argentina;;
+20;;Aluno 03;Aluno;A;;;;;;;;Argentina;;
+20;;Aluno 04 ;Aluno;A;;;;;;;;Peru;;
+20;;Aluno 05;Aluno;A;;;;;;MG;;Brasil;;
+20;;Alluno 06;Aluno;A;;;;;;RJ;;Brasil;;
+20;;Aluno 07;Aluno;A;;;;;;RJ;;Brasil;;
+20;;Aluno 08;Aluno;A;;;;;;RJ;;Brasil;;
+20;;Aluno 09;Aluno;A;;;;;;RJ;;Brasil;;
+20;;Aluno 10;Aluno;A;;;;;;SP;;Brasil;;
+20;;Aluno 11;Aluno;A;;;;;;SP;;Brasil;;
+20;;Aluno 12;Aluno;A;;;;;;SC;;Brasil;;
+20;;Aluno 13;Aluno;A;;;;;;RS;;Brasil;;
+20;;Aluno 14;Aluno;A;;;;;;RS;;Brasil;;
+20;;Aluno 15;Aluno;A;;;;;;RS;;Brasil;;
+20;;Aluno 16;Aluno;A;;;;;;RS;;Brasil;;
+21;1991;Ana Cristina da Rosa Mendes;Aluna;A;F;;;;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+21;1991;Anna Beatriz Barcellos Pinheiro;Aluna;A;F;;;;Niterói;RJ;Sudeste;Brasil;-22.896452;-43.075823
+21;1991;Antônia Pereira de Ávila Vio;Aluna;A;F;;;;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+21;1991;Denise Alves Machado;Aluna;A;F;;;;Florianópolis ;SC;Sul;Brasil;-27.587796;-48.547637
+21;1991;Maurício Cerqueira Araújo;Aluno;A;M;;;;Maceió;AL;Nordeste;Brasil;-9.660822;-35.70163
+21;1991;Monika Beatriz Crud Maciel;Aluna;A;F;;;;Niterói;RJ;Sudeste;Brasil;-22.896452;-43.075823
+21;1991;Paula Moraes Pereira;Aluna;A;F;;;;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+21;1991;Paulo Martuscelli;Aluno;A;M;Centro de Pesquisas Aplicadas em Recursos Naturais da Ilha do Cardoso - CEPARNIC;1;ensino-pesquisa;Cananéia;SP;Sudeste;Brasil;-25.016908;-47.928483
+21;1991;Regina de Souza Yabe;Aluna;A;F;;;;Londrina ;PR;Sul;Brasil;-23.312156;-51.162773
+21;1991;Rômulo Ribon;Aluno;A;M;Sociedade de Pesquisa em Vida Selvagem - MG;5;terceiro-setor;Viçosa ;MG;Sudeste;Brasil;-20.752072;-42.879477
+21;1991;Valéria dos Santos Moraes;Aluna;A;F;;;;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+22;1994;Antônio Sabino da Silva;Aluno;A;M;Companhia Hirelétrica do São FranciSulo - CHESF;7;empresas;Sobradinho;BA;Nordeste;Brasil;-9.470807;-40.791595
+22;1994;Carlos Albécio Maia;Aluno;A;M;Universidade Regional do Cariri - URCA;1;ensino-pesquisa;Juazeiro do Norte;CE;Nordeste;Brasil;-7.210766;-39.316993
+22;1994;Carlos Leal Filho;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama - FLONA Araripe;2;orgao-ambiental;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+22;1994;Elivan Arantes de Souza;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama - CEMAVE;2;orgao-ambiental;João Pessoa;PB;Nordeste;Brasil;-7.149382;-34.873385
+22;1994;Flávio Roberto de Alencar Roza;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama ;2;orgao-ambiental;Salgueiro;PE;Nordeste;Brasil;-8.070678;-39.120851
+22;1994;Francisco Daxo Leal Alencar;Aluno;A;M;DERE;2;orgao-ambiental;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+22;1994;Gláucia Jordão Zerbini;Aluna;A;F;Jardim Botânico de Brasília;3;museus-afins;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+22;1994;Gilmário Agostinho dos Santos;Aluno;A;M;Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama ;2;orgao-ambiental;Jardim;CE;Nordeste;Brasil;-7.585536;-39.284164
+22;1994;Irisney Antunes Marques;Aluno;A;M;Universidade Regional do Cariri - URCA;1;ensino-pesquisa;Cariús;CE;Nordeste;Brasil;-6.531128;-39.497689
+22;1994;Márcia Maria Moraes Gonçalves;Aluna;A;F;Universidade Regional do Cariri - URCA;1;ensino-pesquisa;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+22;1994;Tânia Pereira Santana;Aluna;A;F;Universidade Regional do Cariri - URCA;1;ensino-pesquisa;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+23;1995;Hamilton Fernandes Souza;Aluno;A;M;Ibama - POCOF de Camaquã;2;orgao-ambiental;Camaquã;RS;Sul;Brasil;-30.850704;-51.814601
+23;1995;Nilson Correia Moura;Aluno;A;M;Ibama - SUPES-Sul;2;orgao-ambiental;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+23;1995;Maria de Lourdes Gomes ;Aluna;A;F;Ibama - SUPES-Sul;2;orgao-ambiental;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+23;1995;Marco Antônio Pape;Aluno;A;M;Ibama - POCOF de Londrina;2;orgao-ambiental;Londrina;PR;Sul;Brasil;-23.312156;-51.162773
+23;1995;Hugo Alexandrino de Oliveira;Aluno;A;M;Ibama - ESREG Crato;2;orgao-ambiental;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+23;1995;Ernesto José Santana Neto;Aluno;A;M;Ibama - DICOF-SUPES-SE;2;orgao-ambiental;Aracaju;SE;Nordeste;Brasil;-10.907216;-37.048213
+23;1995;Manoel Machado de Oliveira Filho;Aluno;A;M;Ibama - SUPES-SE;2;orgao-ambiental;Aracaju;SE;Nordeste;Brasil;-10.907216;-37.048213
+23;1995;Iberê Sassi;Aluno ;A ;M ;Ibama - SUPES-ES;2;orgao-ambiental;Vitória;ES;Sudeste;Brasil;-20.320154;-40.322209
+23;1995;Tomaz Drossondorfor de Novaes ;Aluno ;A ;M ;Ibama - FLONA do Rio Suleto;2;orgao-ambiental;Rio Suleto;ES;Sudeste;Brasil;-22.086922;-43.829466
+23;1995;Luiz Carlos Del Castilo Raiol;Aluno ;A ;M ;Ibama - SUPES-AP;2;orgao-ambiental;Macapá;AP;Norte;Brasil;0.038951;-51.057405
+23;1995;Benedito Duarte Costa;Aluno ;A ;M ;Ibama - CETAS-SUPES-RN;2;orgao-ambiental;Natal;RN;Nordeste;Brasil;-5.750899;-35.252255
+23;1995;Luiz Alberto Lima Cantanhêde;Aluno ;A ;M ;Ibama - SUPES-RO;2;orgao-ambiental;Porto Velho;RO;Norte;Brasil;-8.768892;-63.831446
+23;1995;Marcelino F. Azevedo Filho;Aluno ;A ;M ;Ibama - NUC-SUPES-RO;2;orgao-ambiental;Porto Velho;RO;Norte;Brasil;-8.768892;-63.831446
+23;1995;Walt Silva Sobrinho;Aluno ;A ;M ;Ibama - REBIO Pedra Talhada-SUPES-AL;2;orgao-ambiental;Maceió;AL;Nordeste;Brasil;-9.660822;-35.70163
+23;1995;Walter Galdino Bezerra;Aluno ;A ;M ;Ibama - SUPES-PB;2;orgao-ambiental;João Pessoa;PB;Nordeste;Brasil;-7.149382;-34.873385
+23;1995;George Guimarães Plácido;Aluno ;A ;M ;Ibama - SUPES-RJ;2;orgao-ambiental;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+23;1995;José da Luz Alencar;Aluno ;A ;M ;Ibama - ESREG Salgueiro-SUPES-PE;2;orgao-ambiental;Salgueiro;PE;Nordeste;Brasil;-8.070678;-39.120851
+23;1995;Vanja Corrêa de Oliveira;Aluno ;A ;M ;Ibama - DIVOF-SUPES-PE;2;orgao-ambiental;Recife;PE;Nordeste;Brasil;-8.062762;-34.888942
+23;1995;Carlos César Silva de Carvalho;Aluno ;A ;M ;Ibama - CENAQUA-GO;2;orgao-ambiental;Goiânia;GO;Centro-Oeste;Brasil;-16.67331;-49.255814
+23;1995;Jésus José de Oliveira;Aluno ;A ;M ;Ibama - ESREG de Lavras-SUPES-MG;2;orgao-ambiental;Lavras;MG;Sudeste;Brasil;-21.24287;-44.999931
+23;1995;Luis Antônio Gonçalves de Lima;Aluno ;A ;M ;Ibama - SUPES-SP;2;orgao-ambiental;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+23;1995;Evandro Gonçalves Chaves;Aluno ;A ;M ;Ibama - ESREG de Lorena-SUPES-SP;2;orgao-ambiental;Lorena;SP;Sudeste;Brasil;-22.731693;-45.124248
+23;1995;Wilson da Silva Maciel;Aluno ;A ;M ;Ibama - SUPES-MA;2;orgao-ambiental;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+23;1995;Cleudes de Jesus Alves;Aluna;A;F;Ibama - SUPES-MA;2;orgao-ambiental;São Luís;MA;Nordeste;Brasil;-2.531886;-44.297919
+23;1995;Francisco Celso de Medeiros;Aluno ;A ;M ;Ibama - PARNA de Sete Cidades-SUPES-PI;2;orgao-ambiental;Piracuruca;PI;Nordeste;Brasil;-3.929287;-41.709042
+23;1995;José Lacerda da Luz;Aluno ;A ;M ;Ibama - SUPES-PI;2;orgao-ambiental;Teresina;PI;Nordeste;Brasil;-5.086342;-42.80527
+23;1995;Edilson Nogueira dos Santos;Aluno ;A ;M ;Ibama - SUPES-BA;2;orgao-ambiental;Salvador;BA;Nordeste;Brasil;-13.014772;-38.488061
+23;1995;Maria Conceição Santana Pires;Aluna;A;F;Ibama - SUPES-BA;2;orgao-ambiental;Salvador;BA;Nordeste;Brasil;-13.014772;-38.488061
+23;1995;Antonina Ornelas;Aluna;A;F;Ibama - SUPES-BA;2;orgao-ambiental;Salvador;BA;Nordeste;Brasil;-13.014772;-38.488061
+23;1995;Enio Ronald de Almeida Cardoso;Aluno ;A ;M ;Ibama - SUPES-DF;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+23;1995;Roberto Carlos dos Anjos;Aluno ;A ;M ;IEMA - SEMATEC/DF;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+24;1995;Carlos Alexandre Harding Miranda;Aluno;A;M;;;;Santos;SP;Sudeste;Brasil;-23.933738;-46.331371
+24;1995;Fábio Maurício do B. Calazans;Aluno;A;M;;;;Maceió;AL;Nordeste;Brasil;-9.660822;-35.70163
+24;1995;Llana Fichberg;Aluna;A;F;;;;Niterói;RJ;Sudeste;Brasil;-22.896452;-43.075823
+24;1995;João Joviano de Medeiros Neto;Aluno;A;M;;;;Campina Grande ;PB;Nordeste;Brasil;-7.221497;-35.883859
+24;1995;Francisco Antônio de Brito;Aluno;A;M;;;;Fortaleza ;CE;Nordeste;Brasil;-3.723805;-38.589928
+24;1995;Leonardo Cardoso Quintanilha;Aluno;A;M;;;;Goiânia ;GO;Centro-Oeste;Brasil;-16.67331;-49.255814
+24;1995;Marcelo Ferreira de VaSuloncelos;Aluno;A;M;;;;Belo Horizonte;MG;Sudeste;Brasil;-19.937524;-43.926453
+24;1995;Márcia Simões Carvalho;Aluna;A;F;;;;Barra Mansa;RJ;Sudeste;Brasil;-22.545301;-44.172431
+24;1995;Marize Moreira Gibrail;Aluna;A;F;;;;Uberlândia;MG;Sudeste;Brasil;-18.918999;-48.27795
+24;1995;Roberta Costa Rodrigues;Aluna;A;F;;;;Olinda;PE;Nordeste;Brasil;-7.99266;-34.86131
+24;1995;Luis Augusto da Silva VaSuloncellos;Aluno;A;M;;;;São Carlos;SP;Sudeste;Brasil;-22.015999;-47.889238
+25;1999;Alexandre Henrique Jost ;Aluno;A;M;;;;Nova Hartz ;RS;Sul;Brasil;-29.585748;-50.903793
+25;1999;Djalma da Nóbrega Ferreira;Aluno;A;M;;;;Brotas;BA;Nordeste;Brasil;-22.286517;-48.126833
+25;1999;Fátima Aparecida Sonoda;Aluna;A;F;Fundação Estadual do Meio Ambiente ;2;orgao-ambiental;Cuiabá;MT;Centro-Oeste;Brasil;-15.569989;-56.073252
+25;1999;Luciene de Paula Faria;Aluna;A;F;;;;Belo Horizonte ;MG;Sudeste;Brasil;-19.937524;-43.926453
+25;1999;Luis Leonardo Arteaga Bohrt;Aluno;A;M;;;;La Paz;MG;Sudeste;Bolívia;-16.489575;-68.118937
+25;1999;Marcela de Fátima Nascimento de Macêdo Torres;Aluna;A;F;;;;Manaus;AM;Norte;Brasil;-3.134691;-60.023335
+25;1999;Maristela Benites da Silva;Aluna;A;F;;;;Campo Grande;MS;Centro-Oeste;Brasil;-20.45803;-54.615744
+25;1999;Marolyn Vidaure de la Riva;Aluno;A;M;;;;La Paz;;;Bolívia;-16.489575;-68.118937
+25;1999;Mieko Ferreira Kanegae;Aluno;A;M;;;;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+25;1999;Nelson Novaes Pedroso Junior;Aluno;A;M;Centro de Estudos do Mar;1;ensino-pesquisa;Pontal do Paraná;PR;Sul;Brasil;-25.594151;-48.448327
+25;1999;Sumiko Namba;Aluno;A;M;;;;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+26;2019;Aline Ariela Passos Lisbôa Pereira;Aluna;A;F;Consultora;7;empresas;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+26;2019;Amablly Renata Martins de Moura;Aluna;A;F;UFCE;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+26;2019;Eric Andrei Arrais Alexandre;Aluno;A;M;URCA;1;ensino-pesquisa;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+26;2019;Antônio Jackson Forte Beleza;Aluno;A;M;UVA e UECE;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+26;2019;Aryna Dias Pereira;Aluna;A;F;UEMA;1;ensino-pesquisa;Caxias;MA;Nordeste;Brasil;-4.861675;-43.358539
+26;2019;Bruna Stefane da Silva Santos;Aluna;A;F;UEMA;1;ensino-pesquisa;Caxias;MA;Nordeste;Brasil;-4.861675;-43.358539
+26;2019;Bruno Eduardo de Souza Barboza;Aluno;A;M;UEFS;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+26;2019;Camila Silva do Nascimento;Aluna;A;F;UECE;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+26;2019;Carlos Leal Filho;Aluno;A;M;ICMBio;2;orgao-ambiental;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+26;2019;Cícero Simão Lima Santos;Aluno;A;M;URCA;1;ensino-pesquisa;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+26;2019;Cíntia Martins Souza;Aluna;A;F;UFCE;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+26;2019;Gabriela Pereira Ramires;Aluna;A;F;UFCE;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+26;2019;George Agamenon da Silva;Aluno;A;M;UFAL;1;ensino-pesquisa;Maceió;AL;Nordeste;Brasil;-9.660822;-35.70163
+26;2019;Gilmário Agostinho dos Santos;Aluno;A;M;ICMBio;2;orgao-ambiental;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+26;2019;Hipólito Denizard Ferreira Xavier;Aluno;A;M;UFCE;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+26;2019;João Heriberto de Oliveira;Aluno;A;M;Aquasis;5;terceiro-setor;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+26;2019;Mauro Celso Rodrigues dos Santos;Aluno;A;M;UEMA;1;ensino-pesquisa;Caxias;MA;Nordeste;Brasil;-4.861675;-43.358539
+26;2019;Tereza Raquel Carneiro Soares;Aluna;A;F;URCA;1;ensino-pesquisa;Crato;CE;Nordeste;Brasil;-7.231753;-39.40839
+26;2019;Verônica Lima da Silva;Aluna;A;F;Aquasis;5;terceiro-setor;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+26;2019;Victória Maria reis de Souza;Aluna;A;F;UFCE;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+27;2013;Alberto Felipe Klotz;Aluno;A;M;ICMBio;2;orgao-ambiental;;;;Brasil;;
+27;2013;Algislayne  Fechtner Coenga;Aluna;A;F;;;;;;;Brasil;;
+27;2013;Andreia Quandt Monteiro                                                                                                                                                          ;Aluna;A;F;ICMBio;2;orgao-ambiental;;;;Brasil;;
+27;2013;Camila Martins Pires;Aluna;A;F;Instituto Mamirauá;5;terceiro-setor;;;;Brasil;;
+27;2013;Fabricio Basilio Almeida;Aluno;A;M;;;;;;;Brasil;;
+27;2013;Fabrícia Campello;Aluna;A;F;;;;;;;Brasil;;
+27;2013;Fernanda Mussi Fontoura;Aluna;A;F;;;;;;;Brasil;;
+27;2013;Jerry;Aluno;A;M;;;;;;;Brasil;;
+27;2013;Luiz Carlos Souza Pereira;Aluno;A;M;;;;;;;Brasil;;
+27;2013;Marcello Vicente Lourenço;Aluno;A;M;;;;;;;Brasil;;
+27;2013;Marcos Hiroshi Taniwaki;Aluno;A;M;ICMBio;2;orgao-ambiental;;;;Brasil;;
+27;2013;Marcus Vinicius Falcão Paredes;Aluno;A;M;;;;;;;Brasil;;
+27;2013;Paulo Jardel Braz Faiad;Aluno;A;M;ICMBio;2;orgao-ambiental;;;;Brasil;;
+27;2013;Paulo Rodrigo Silvestro                                                                                                                                                          ;Aluno;A;M;ICMBio;2;orgao-ambiental;;;;Brasil;;
+27;2013;Rafael Amaral                                                                                                                                                      ;Aluno;A;M;ICMBio;2;orgao-ambiental;;;;Brasil;;
+27;2013;Roberta Marcatti de Azevedo;Aluna;A;F;PMSP;2;orgao-ambiental;;;;Brasil;;
+28;2014;Ana Bernadete Lima Fragoso;Aluna;A;F;Projeto Cetáceos da Costa Branca – UERN;1;ensino-pesquisa;;;;Brasil;;
+28;2014;Ana Emília Barboza de Alencar;Aluna;A;F;Projeto Cetáceos da Costa Branca – UERN;1;ensino-pesquisa;;;;Brasil;;
+28;2014;Ana Paula Domingos Brito;Aluna;A;F;Projeto Cetáceos da Costa Branca – UERN;1;ensino-pesquisa;;;;Brasil;;
+28;2014;Daniel Solon Dias de Farias;Aluno;A;M;Projeto Cetáceos da Costa Branca – UERN;1;ensino-pesquisa;;;;Brasil;;
+28;2014;Flávio José de Lima Silva;Aluno;A;M;Projeto Cetáceos da Costa Branca – UERN;1;ensino-pesquisa;;;;Brasil;;
+28;2014;Simone Almeida Leandro da Costa;Aluna;A;F;Projeto Cetáceos da Costa Branca – UERN;1;ensino-pesquisa;;;;Brasil;;
+28;2014;Thiago Emanoel Bezerra da Costa;Aluno;A;M;Projeto Cetáceos da Costa Branca – UERN;1;ensino-pesquisa;;;;Brasil;;
+28;2014;Laíza de Queiroz Viana Braga;Aluna;A;F;AQUASIS;5;terceiro-setor;;;;Brasil;;
+28;2014;Jason Alan Mobley;Aluno;A;M;AQUASIS;5;terceiro-setor;;;;Brasil;;
+28;2014;Flávio Lima ;Aluno;A;M;;;;;;;Brasil;;
+28;2014;Andre Barbosa;Aluno;A;M;;;;;;;Brasil;;
+28;2014;Bruno Berger ;Aluno;A;M;;;;;;;Brasil;;
+28;2014;Alessandro Trazz;Aluno;A;M;;;;;;;Brasil;;
+28;2014;João Ilton;Aluno;A;M;Petrobrás;7;empresas;;;;Brasil;;
+28;2014;Luciano Reis;Aluno;A;M;Fundação Mamíferos Aquáticos - FMA;5;terceiro-setor;;;;Brasil;;
+28;2014;Sheila Serra ;Aluna;A;F;Fundação Mamíferos Aquáticos - FMA;5;terceiro-setor;;;;Brasil;;
+28;2014;Adolfo Hubner;Aluno;A;M;;;;;;;Brasil;;
+28;2014;Jociery Einhardt Vergara Parente ;Aluna;A;F;Fundação Mamíferos Aquáticos - FMA;5;terceiro-setor;;;;Brasil;;
+28;2014;Maria Eduarda Pessoa ;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Thays Paes Cabral Amaro;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Daniela Figueiredo Velho;Aluna;A;F;Perenco;7;empresas;;;;Brasil;;
+28;2014;Luis Felipe;Aluno;A;M;IPRAM-ES;2;orgao-ambiental;;;;Brasil;;
+28;2014;Renata Bhering;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Denise;Aluna;A;F;Fundação Mamíferos Aquáticos - FMA;5;terceiro-setor;;;;Brasil;;
+28;2014;Miriam Cunha;Aluna;A;F;Petrobrás;7;empresas;;;;Brasil;;
+28;2014;Fabio Amancio Marcelo Mota de Azevedo ;Aluno;A;M;;;;;;;Brasil;;
+28;2014;Ana Carolina Meirelles;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Paulo Cirne;Aluno;A;M;;;;;;;Brasil;;
+28;2014;Mariana Viana;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Luciana Ramos;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Ana Paula da Cruz;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Erica Costa;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Beatriz abrahão;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Clarissa Cunha;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Leandro Valentim;Aluno;A;M;;;;;;;Brasil;;
+28;2014;André Beal;Aluno;A;M;;;;;;;Brasil;;
+28;2014;Roberta Botelho ;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Tainan Oliveira;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Adna Sandra;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Ana Emília Alencar;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Simone Almeida Leandro;Aluna;A;F;;;;;;;Brasil;;
+28;2014;Bernadete Fragoso ;Aluna;A;F;;;;;;;Brasil;;
+30;2016;Adriana C. Morales Corrêa e Castro;Aluna;A;F;USP;1;ensino-pesquisa;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+30;2016;Bianca Santos Matinata;Aluna;A;F;FMU;1;ensino-pesquisa;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+30;2016;Carolina Toledo Andreu;Aluna;A;F;UNESP;1;ensino-pesquisa;Santos;SP;Sudeste;Brasil;-23.933738;-46.331371
+30;2016;Luiz Eduardo Rodrigues;Aluno;A;M;UniEVANGELICA;1;ensino-pesquisa;Anápolis;GO;Centro-Oeste;Brasil;-16.328826;-48.957218
+30;2016;Eliane Cristina dos Anjos;Aluna;A;F;UNIPAC;1;ensino-pesquisa;Araguari;MG;Sudeste;Brasil;-18.64827;-48.191605
+30;2016;Eliane Mateus Pires;Aluna;A;F;UCB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+30;2016;Erunaiá Pereira de Lima;Aluna;A;F;Faculdade São Lucas-FSC;1;ensino-pesquisa;Porto Velho;RO;Norte;Brasil;-8.768892;-63.831446
+30;2016;Flávia Geordana DamaSuleno Araújo;Aluna;A;F;UCB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+30;2016;Flávio Alves Moura;Aluno;A;M;Faculdade Anhanguera de Brasília;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+30;2016;Paulo Cesar Lopes;Aluno;A;M;UNINCOR;1;ensino-pesquisa;Três Corações;MG;Sudeste;Brasil;-21.695966;-45.254937
+30;2016;Juliana Helena Pamplona;Aluna;A;F;UFSCE;1;ensino-pesquisa;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+30;2016;Larissa Batalha Santos da Silva;Aluna;A;F;UFCE;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+30;2016;Luthiana Carbonell dos Santos;Aluna;A;F;UFRGS;1;ensino-pesquisa;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+30;2016;Renata Salaro Stecca;Aluna;A;F;CUCE;1;ensino-pesquisa;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+30;2016;Wander do Nascimento;Aluno;A;M;UECE;1;ensino-pesquisa;Barreiras;BA;Nordeste;Brasil;-12.144925;-45.004168
+30;2016;Welington Silva Oliveira;Aluno;A;M;UNIP;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+31;2017;Alice Soares de Oliveira;Aluna;A;F;Prefeitura Municipal de São Paulo;2;orgao-ambiental;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+31;2017;Ana Célly Nascimento L. Pinho;Aluna;A;F;INEMA/BA;2;orgao-ambiental;Salvador ;BA;Nordeste;Brasil;-13.014772;-38.488061
+31;2017;Ana Michelle Belém de Souza;Aluna;A;F;CRAS – IMA (Spizaetus Ambiental);2;orgao-ambiental;Caetité;BA;Nordeste;Brasil;-14.066754;-42.485711
+31;2017;Anna Leticia Leite Magalhães Fóz;Aluna;A;F;CETAS/IBAMA/DF;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+31;2017;Andréia Rodrigues de C. Pitta Lima ;Aluna;A;F;Secretaria do Verde e Meio Ambiente - DEPAVE3;2;orgao-ambiental;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+31;2017;Carolina Gatti Miotto;Aluna;A;F;GREMAR;2;orgao-ambiental;Guarujá;SP;Sudeste;Brasil;-23.995149;-46.249034
+31;2017;Fernando H. Sulevidente;Aluno;A;M;Projeto de Conservação do Pato Mergulhão;5;terceiro-setor;Alto Paraíso;GO;Centro-Oeste;Brasil;-9.716667;-63.317629
+31;2017;Flávia Lumi Kita;Aluna;A;F;GREMAR;2;orgao-ambiental;Guarujá;SP;Sudeste;Brasil;-23.995149;-46.249034
+31;2017;Gisele Regina Ruy;Aluna;A;F;Prefeitura Municipal de São Paulo;2;orgao-ambiental;Franco da Rocha ;SP;Sudeste;Brasil;-23.320303;-46.727875
+31;2017;Josieli Felli;Aluna;A;F;Associação R3 Animal;5;terceiro-setor;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+31;2017;Letícia Bolian Zimback;Aluna;A;F;Prefeitura Municipal de São Paulo;2;orgao-ambiental;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+31;2017;Márcio Henrique;Aluno;A;M;CETAS/IBAMA/DF;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+31;2017;Oswaldo;Aluno;A;M;CETAS/IBAMA/DF;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+31;2017;Roberval Pontes;Aluno;A;M;CETAS/IBAMA/DF;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+31;2017;Thiago;Aluno;A;M;CETAS/IBAMA/DF;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+32;2017;Priscila Bernardes Couto;Aluna;A;F;UNIP;1;ensino-pesquisa;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+32;2017;Jaqueline Orlando;Aluna;A;F;UNESP;1;ensino-pesquisa;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+32;2017;Rafael Mitsuo Tanaka;Aluno;A;M;UNIFAL;1;ensino-pesquisa;Ubatuba ;SP;Sudeste;Brasil;-23.435965;-45.072091
+32;2017;Lucylli Alves dos Santos;Aluna;A;F;UNIARARAS;1;ensino-pesquisa;São Sebastião;SP;Sudeste;Brasil;-23.806688;-45.40268
+32;2017;Fernanda Riera PaSulhotto;Aluna;A;F;USP;1;ensino-pesquisa;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+32;2017;Vinícius Rozendo Vianna;Aluno;A;M;UNICEUB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+32;2017;Jonatas Souza Rocha;Aluno;A;M;Faculdade Anhanguera de Brasília;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+32;2017;Claúdia Cavalcante Rocha Campos;Aluna;A;F;UNISA;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+32;2017;Isis Costa Cambraia;Aluna;A;F;UCB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+32;2017;Marcela Gilberti;Aluna;A;F;UFG;1;ensino-pesquisa;Goiânia;GO;Centro-Oeste;Brasil;-16.67331;-49.255814
+32;2017;Fernando Henrique Sulevidente;Aluno;A;M;UFSCAR;1;ensino-pesquisa;Alto Paraíso de Goiás;GO;Centro-Oeste;Brasil;-14.136245;-47.519093
+32;2017;Cassiana Alves de Aguiar;Aluno;A;M;UNIPAMPA;1;ensino-pesquisa;São Gabriel ;RS;Sul;Brasil;-30.33676;-54.320478
+32;2017;Carla Josiane Terres;Aluna;A;F;UFCE;1;ensino-pesquisa;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+32;2017;Maria Carolina Beiriz Silva;Aluna;A;F;UFCE;1;ensino-pesquisa;Fortaleza;CE;Nordeste;Brasil;-3.723805;-38.589928
+32;2017;Marina Franco de Almeida Máximo;Aluna;A;F;INPA;1;ensino-pesquisa;Manaus;AM;Norte;Brasil;-3.134691;-60.023335
+32;2017;Raquel Justo;Aluno;A;M;UFRRJ;1;ensino-pesquisa;Niterói;RJ;Sudeste;Brasil;-22.896452;-43.075823
+32;2017;Silvander Aparecido Mendes Pereira;Aluno;A;M;FEPI;1;ensino-pesquisa;Itajubá;MG;Sudeste;Brasil;-22.430601;-45.464583
+33;2018;Claúdio Estevão Farias da Cruz;Aluno;A;M;UFRGS;1;ensino-pesquisa;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+33;2018;Liliane Leal das Chagas;Aluna;A;F;UFPA;1;ensino-pesquisa;Ananindeua;PA;Norte;Brasil;-1.368714;-48.372067
+33;2018;Maria Carolina Tiburcio Dias Belotti;Aluna;A;F;UNIP;1;ensino-pesquisa;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+33;2018;Surama Pereira;Aluna;A;F;UEMA;1;ensino-pesquisa;Caxias;MA;Nordeste;Brasil;-4.861675;-43.358539
+33;2018;Thaís Coelho Thomazini;Aluna;A;F;UNESP;1;ensino-pesquisa;Ribeirão Suleto;SP;Sudeste;Brasil;-21.184835;-47.805476
+33;2018;Flávio Landim Soffiati;Aluno;A;M;UENF;1;ensino-pesquisa;Campos dos Goytacazes;RJ;Sudeste;Brasil;-21.751899;-41.330476
+33;2018;Hilda Raianne Silva de Melo;Aluna;A;F;UEMA;1;ensino-pesquisa;Caxias;MA;Nordeste;Brasil;-4.861675;-43.358539
+33;2018;Grasielly Piton Galindo Ramos;Aluna;A;F;UFBA;1;ensino-pesquisa;Aracaju;SE;Nordeste;Brasil;-10.907216;-37.048213
+33;2018;Ravel Tiburcio Moreira Trindade;Aluno;A;M;PUC-Minas;1;ensino-pesquisa;Belo Horizonte;MG;Sudeste;Brasil;-19.937524;-43.926453
+33;2018;Flávio Landim Soffiati;Aluno;A;M;UENF;1;ensino-pesquisa;Campos dos Goytacazes;RJ;Sudeste;Brasil;-21.751899;-41.330476
+33;2018;Grasielly Piton Galindo Ramos;Aluna;A;F;UFBA;1;ensino-pesquisa;Aracaju;SE;Nordeste;Brasil;-10.907216;-37.048213
+33;2018;Hilda Raianne Silva de Melo;Aluna;A;F;UEMA;1;ensino-pesquisa;Caxias;MA;Nordeste;Brasil;-4.861675;-43.358539
+34;2019;Lilian Silva Catenacci;Aluna;A;F;UNESP;1;ensino-pesquisa;Teresina ;PI;Nordeste;Brasil;-5.086342;-42.80527
+34;2019;Bruno Felipe Mello;Aluno;A;M;UFJF;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+34;2019;Lorena Branco Neno;Aluna;A;F;UnB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+34;2019;Éder Ricardo Paetzhold;Aluno;A;M;PUC/Sul;1;ensino-pesquisa;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+34;2019;Sabrina Wust;Aluna;A;F;UFG;1;ensino-pesquisa;Goiânia;GO;Centro-Oeste;Brasil;-16.67331;-49.255814
+34;2019;Ana Laura Rosa;Aluna;A;F;UNB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+34;2019;Lisis Jânala de Assis Fernandes;Aluna;A;F;UFPI;1;ensino-pesquisa;Teresina ;PI;Nordeste;Brasil;-5.086342;-42.80527
+34;2019;Lisa VaSuloncelos de Oliveira;Aluna;A;F;USP;1;ensino-pesquisa;Cananéia;SP;Sudeste;Brasil;-25.016908;-47.928483
+34;2019;Kliszilla Paula Avila;Aluna;A;F;UEM;1;ensino-pesquisa;Cascavel;PR;Sul;Brasil;-24.953798;-53.459722
+34;2019;Flávia Heloísa Rodriguez;Aluna;A;F;FAA;1;ensino-pesquisa;Foz do Iguaçu;PR;Sul;Brasil;-25.542493;-54.587102
+34;2019;Ranne Karine Costa dos Santos;Aluna;A;F;UnB;1;ensino-pesquisa;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+34;2019;Caroline Miranda Goulart;Aluna;A;F;UDF;1;ensino-pesquisa;Valparaíso;GO;Centro-Oeste;Brasil;-21.225575;-50.869308
+35;2011;Cláudio Ribas de Sousa;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Fernando Vitor Passos;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;André Luiz Caldas;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Rosivan Correia de Souza;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Luis Henrique de Barros Rodrigues;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Isabela Cristina de Souza Almeida;Aluna;A;F;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Renzo Medina Dallago;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;José Carlos de Barros;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Sebastião Ivan de Faria;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Wilson José Oliveira de Sousa;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Israel Laurindo de Sousa;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Gerri Adriano Fernandes da Silva;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Ariosvaldo Pereira da Silva;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Luis Carlos de Lima Freire;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Valdomir José Xavier;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Carlos Alberto Pinheiro dos Santos;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Renato Campos Bitencourt;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Paulo Sérgio dos Santos;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Josué Pereira da Silva;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Evandro Pereira dos Santos;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Eglilson Ferreira Almeida;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Francisco Luciano Rodrigues Lima;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Luciano Luiz de Andrade;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Wagner Aparecido de Oliveira;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Antônio Pires Lopes;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Yatagan Benogno de Souza;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Ernesto Gregório da Silva Filho;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Isac Márcio Dantas Longuinho;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Antônio da Silva Correia;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Silésia Helena Rodrigues;Aluna;A;F;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Célio Souza de Oliveira;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Edmilson Ferreira Santos;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;José Henrique Bispo de Almeida;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;João Florêncio Ramos;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Luiz Carlos da Silva;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Adriano César Lopes da Rocha;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Luís Carlos Ferreira de Carvalho;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Janduí Pires Ferreira;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Liziana Hoffmann Rosa;Aluna;A;F;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Paulo Sérgio Cardoso da Silva;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;José Arimatéia Silva Filho;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Isla Hilmara Martins Silva;Aluna;A;F;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Marcel Lara Fernandes;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Carlos Eduardo Medeiros;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Wander Gomes dos Santos;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+35;2011;Joelson Alexandrino da Silva;Aluno;A;M;Polícia Militar do Distrito Federal - PMDF;4;forças-segurança;Brasilia;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+36;2012;Adriana Vaz dos Santos;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Aline Silva dos Anjos;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Ana Aparecida de Freitas Lima;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Ana Paula Fagundes;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Angela Sanches Domingues;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Camila de Mesquita Lopes;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Gabriel F. Fernandes;Aluno;A;M;;;;;;;Brasil;;
+36;2012;Leila Ramos Neves;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Leonardo Martha de Souza Lima;Aluno;A;M;;;;;;;Brasil;;
+36;2012;Lorena e Silva Monte de Almeida;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Luciéle Cristina Rosa;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Maiara Lenise Lutz;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Matheus Sanches;Aluno;A;M;;;;;;;Brasil;;
+36;2012;Michelle da Cunha Torres;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Paulo Vinicius Davanço;Aluno;A;M;;;;;;;Brasil;;
+36;2012;Pedro Santos;Aluno;A;M;;;;;;;Brasil;;
+36;2012;Rochele VaSuloncelos Castelo Branco Mourão;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Rossana de Paula Vilamiu;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Thaíse Leandro Barbosa;Aluna;A;F;;;;;;;Brasil;;
+36;2012;Tiago Porto Aranha;Aluno;A;M;;;;;;;Brasil;;
+37;2019;Adilson Ramos dos Santos;Aluno;A;M;MP Ambiental;8;juridico;;;;Brasil;;
+37;2019;Alex dos Santos Laurentino;Aluno;A;M;INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Ana Célly N. M. Lima;Aluna;A;F;INEMA - Zoo;3;museus-afins;;;;Brasil;;
+37;2019;André Nascimento de Souza;Aluno;A;M;INEMA – URSul;2;orgao-ambiental;;;;Brasil;;
+37;2019;Avanildo dos Santos;Aluno;A;M;Guarda Municipal;4;forças-segurança;;;;Brasil;;
+37;2019;Bernadete Seixas;Aluna;A;F;SEMA – INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Carla Santos Guimarães;Aluna;A;F;COPAZ – INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Cid Ferreira Cabral Neto;Aluno;A;M;PMBA - COPPA;4;forças-segurança;;;;Brasil;;
+37;2019;Crescencio N. G. da Silva;Aluno;A;M;COPPA;4;forças-segurança;;;;Brasil;;
+37;2019;Daniel Vieira Ramalho;Aluno;A;M;COADE – DIFIM;2;orgao-ambiental;;;;Brasil;;
+37;2019;Érika Rocha;Aluna;A;F;INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Gidean Barbosa dos Santos Farias;Aluno;A;M;COPPA – PMBA;4;forças-segurança;;;;Brasil;;
+37;2019;Gracina Silva Farias;Aluna;A;F;PMBA – COPPA;4;forças-segurança;;;;Brasil;;
+37;2019;Guilherme Sales Barbosa Neto;Aluno;A;M;MP – BA;8;juridico;;;;Brasil;;
+37;2019;Heron Ferreira da Silva Neto;Aluno;A;M;PMBA – COPPA;4;forças-segurança;;;;Brasil;;
+37;2019;Josemário F. Matos;Aluno;A;M;INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Lairson Coelho Aires;Aluno;A;M;INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Lais Correia Ramos;Aluna;A;F;INEMA – Zoo;3;museus-afins;;;;Brasil;;
+37;2019;Lázaro Oliveira S. Brito;Aluno;A;M;INEMA – URSudoeste;2;orgao-ambiental;;;;Brasil;;
+37;2019;Márcia Virgínia Silva;Aluna;A;F;INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Marcone Matos de Oliveira;Aluno;A;M;INEMA – URPD;2;orgao-ambiental;;;;Brasil;;
+37;2019;Marcus Vinicius de França Moreira;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+37;2019;Maria Luiza O. de Deus;Aluna;A;F;INEMA – URSul;2;orgao-ambiental;;;;Brasil;;
+37;2019;Marianna de S. Pinho;Aluna;A;F;INEMA – DIBIO;2;orgao-ambiental;;;;Brasil;;
+37;2019;Marta Gomes;Aluna;A;F;INEMA - Zoo;3;museus-afins;;;;Brasil;;
+37;2019;Miguel Calmon S. Neto;Aluno;A;M;INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Neliuson Arcanjo Melo;Aluno;A;M;INEMA – FSA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Rafael de Carvalho Santos;Aluno;A;M;PRF;2;orgao-ambiental;;;;Brasil;;
+37;2019;Ricardo Macedo da Costa;Aluno;A;M;INEMA – SEDE;4;forças-segurança;;;;Brasil;;
+37;2019;Ricardo Santana Chaves;Aluno;A;M;INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Robson José Filho;Aluno;A;M;GEIM – GEPA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Romeu Gomes Alves;Aluno;A;M;INEMA – Chapada;2;orgao-ambiental;;;;Brasil;;
+37;2019;Ronildo M. dos Santos;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+37;2019;Sonia Almeida de Santana;Aluna;A;F;PMBA – COPPA;4;forças-segurança;;;;Brasil;;
+37;2019;Thiago Alves Nilo;Aluno;A;M;COPAZ - INEMA;2;orgao-ambiental;;;;Brasil;;
+37;2019;Ustene Maria da Fonseca Seixas ;Aluno;A;M;COPPA;4;forças-segurança;;;;Brasil;;
+37;2019;Victor CuruSulo;Aluno;A;M;COPAZ – INEMA;2;orgao-ambiental;;;;Brasil;;
+38;2018;Alexandro Saides Heggeler ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Ana Paula Jacon Zainedir ;Aluna;A;F;PMSJP;4;forças-segurança;;;;Brasil;;
+38;2018;Anselmo Klostermann ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Araides Sulhreiner Serpa Junior ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Arthur de Freitas Roberto ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Brian Santos da Silva;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Celso Tzeciuk ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Claudinei Borges ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Claudinei Cordeiro da Silva;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Claudio Henrique Cavazzanni;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Cristiano Gonçalves da Silveira ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Denis Camargo Sampaio ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Dinor de Paula ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Edson Luis de Assis ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Erni Jevke ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Fábio da Silva Cazula ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Fernanda Góss Braga ;Aluna;A;F;SEMA-Sul;2;orgao-ambiental;;;;Brasil;;
+38;2018;Gabriela Gonsalves Ribeiro Martins ;Aluna;A;F;GRM;4;forças-segurança;;;;Brasil;;
+38;2018;GeSulon Moreira ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;GeSulon Ricardo Karan ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Hugo Vinicius de Freitas ;Aluno;A;M;PMPR;;;;;;Brasil;;
+38;2018;Ismael Dino Kuba ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;JefeSulon da Silva Dré ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Jéssica Jasinski ;Aluna;A;F;IAP-Sul;2;orgao-ambiental;;;;Brasil;;
+38;2018;Jonas Luiz Grossi ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Leandro Sydor;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Lucas Pigatto de Paula e Silva ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Luiz Fernando de Oliveira Ribeiro;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Luiz Inácio ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Mariano Soistak ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Mauri Ferreira ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Muriel Talita da Silva Pinto ;Aluna;A;F;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Paulo Cesar Ferreira ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Paulo Henrique Dias Bezerra;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Pedro Wiz Cocenza ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;PeteSulon Grosko ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Rodrigo Bondezan ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Ronaldo de Oliveira ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Sandro de Alcantara de Oliveira ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Sandro Moreira da Cruz;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Sérgio Luiz ribeiro ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Sergio Walter ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+38;2018;Tiago Carabelli ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;UindeSulon Teles da Silva ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Ulisses de Deus Gomes ;Aluno;A;M;;;;;;;Brasil;;
+38;2018;Wilson José Razzera ;Aluno;A;M;;;;;;;Brasil;;
+39;2018;Adriana Andrade Charnaux Sertã  ;Aluna;A;F;INEA/GEFAU;2;orgao-ambiental;;;;Brasil;;
+39;2018;Alair Santos Farias ;Aluno;A;M;CPAM;4;forças-segurança;;;;Brasil;;
+39;2018;Alexandre de Almeida Vale ;Aluno;A;M;CPAM;4;forças-segurança;;;;Brasil;;
+39;2018;Alexandre Firmo G. de Oliveira;Aluno;A;M;CPAM;4;forças-segurança;;;;Brasil;;
+39;2018;AndeSulon Mendes Augusto ;Aluno;A;M;RIOZOO;3;museus-afins;;;;Brasil;;
+39;2018;Andrea Yuri Takitani;Aluna;A;F;INEA;2;orgao-ambiental;;;;Brasil;;
+39;2018;Carlos Alberto Vergílio de Azevedo ;Aluno;A;M;CPAM;2;orgao-ambiental;;;;Brasil;;
+39;2018;Clarice Costa ;Aluna;A;F;INEA;4;forças-segurança;;;;Brasil;;
+39;2018;Cristiana Mendes ;Aluna;A;F;INEA;2;orgao-ambiental;;;;Brasil;;
+39;2018;Daniela de Almeida ;Aluna;A;F;Polícia Federal;2;orgao-ambiental;;;;Brasil;;
+39;2018;Débora Rocha ;Aluna;A;F;INEA;4;forças-segurança;;;;Brasil;;
+39;2018;Eden Bruim da Silva ;Aluno;A;M;CPAM;2;orgao-ambiental;;;;Brasil;;
+39;2018;Eduardo Ildefonso Lardosa ;Aluno;A;M;INEA/GEFAU;2;orgao-ambiental;;;;Brasil;;
+39;2018;Fábio A. Khaled Abdel Rahman ;Aluno;A;M;INEA/GEFAU;2;orgao-ambiental;;;;Brasil;;
+39;2018;Felipe Queiroz ;Aluno;A;M;INEA/PESET;2;orgao-ambiental;;;;Brasil;;
+39;2018;Fernando Lopes Gomes ;Aluno;A;M;PMERJ;4;forças-segurança;;;;Brasil;;
+39;2018;Gustavo de Oliveira Fernandes ;Aluno;A;M;PMERJ;4;forças-segurança;;;;Brasil;;
+39;2018;Helio Bustamante ;Aluno;A;M;Gestão/Ibama;2;orgao-ambiental;;;;Brasil;;
+39;2018;João Paulo Cabral Lopes;Aluno;A;M;CPAM;4;forças-segurança;;;;Brasil;;
+39;2018;Kleverton Hugo de Melo ;Aluno;A;M;PMERJ;4;forças-segurança;;;;Brasil;;
+39;2018;Larissa F. Medauar dos Santos ;Aluna;A;F;GEFAU;2;orgao-ambiental;;;;Brasil;;
+39;2018;Leonardo da Fonseca Pinto ;Aluno;A;M;RIOZOO;3;museus-afins;;;;Brasil;;
+39;2018;Marcelo Oliveira da Silva ;Aluno;A;M;PMERJ;4;forças-segurança;;;;Brasil;;
+39;2018;Marcio Alexandre Silva ;Aluno;A;M;PMERJ;4;forças-segurança;;;;Brasil;;
+39;2018;Mariano José Ribeiro da Silva Sant'Anna ;Aluno;A;M;INEA/RBA;2;orgao-ambiental;;;;Brasil;;
+39;2018;Neildo Siqueira de Lima;Aluno;A;M;PMERJ;4;forças-segurança;;;;Brasil;;
+39;2018;Paulo Rodrigo Silva M. do Amaral;Aluno;A;M;PMERJ;4;forças-segurança;;;;Brasil;;
+39;2018;Paulo Rogério Moriyama ;Aluno;A;M;INEA;2;orgao-ambiental;;;;Brasil;;
+39;2018;Rafael Matos Felix ;Aluno;A;M;CPAM;4;forças-segurança;;;;Brasil;;
+39;2018;Ramon Henrique Carvalho Couto ;Aluno;A;M;INEA;2;orgao-ambiental;;;;Brasil;;
+39;2018;Rean de Castro Martinez ;Aluno;A;M;CPAM;4;forças-segurança;;;;Brasil;;
+39;2018;Roberto Rodrigues Jordao;Aluno;A;M;CPAM;4;forças-segurança;;;;Brasil;;
+39;2018;Sindiney Chahim de Avellar Alchorne ;Aluno;A;M;CPAM;4;forças-segurança;;;;Brasil;;
+39;2018;Vander Rodrigues ;Aluno;A;M;CPAM;4;forças-segurança;;;;Brasil;;
+39;2018;EmeSulon de Aguiar Viana ;Aluno;A;M;INEA/PEPS;2;orgao-ambiental;;;;Brasil;;
+40;2018;Jurema Klanovicz ;Aluna;A;F;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Priscila Sulhmitz Heinzen;Aluna;A;F;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Ane Chamille de Oliveira;Aluna;A;F;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Thyago Luiz dos Santos ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Telmo Roberto Ossowski ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Daniel Antonello ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Hilton Paulo Pöttker ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Wilian Rafael Veronezi ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;AndeSulon Linhares;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Danielli Rodrigues Cividini ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Sander Vicentin Hahn;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Cristiano Teixeira Dias ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;ÉveSulon Pinheiro Irigaray ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Ricardo Saporito Vieira;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Adilson Bortolini;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Mario Sérgio Oleskovicz ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Miguel D'Oliveira Lima ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Thiago Marcos Miskiewicz ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;João Maria de Oliveira ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Paulo Cesar dos Santos Junior;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Ori Ivonei Gomes de Almeida;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Teylor Rodrigo Comunello ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Jandir Kohler;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Gioni Otte;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Lennon Capanema Corrêa ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Nilson Surdi ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Marcos A. Navarro Monteiro ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Cibelle Sbrana Serur Santos ;Aluna;A;F;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Arildo Bento Machado ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Jean Marcel Bernardon;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Paulo Luis Weth ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Thiago Emilio Stenger;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Everton Cavalet ;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Luiz Henrique Ribeiro D'arede;Aluno;A;M;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Cynthia de Jesus Rogofski ;Aluna;A;F;PMPR;4;forças-segurança;;;;Brasil;;
+40;2018;Gustavo Romeira M. Pinto ;Aluno;A;M;Ibama;2;orgao-ambiental;;;;Brasil;;
+40;2018;Carlos Eduardo T. Costa ;Aluno;A;M;Polícia Federal;4;forças-segurança;;;;Brasil;;
+40;2018;Vanessa Moraes Nunes;Aluna;A;F;IMA;2;orgao-ambiental;;;;Brasil;;
+40;2018;Osmar de Almeida ;Aluno;A;M;Ibama;2;orgao-ambiental;;;;Brasil;;
+41;2018;Alexandre dos Santos Lemos ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Angelo Marciano Batista Riato;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Antônio Luis Pimentel Filho ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Diógenes Camargo Lobo ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Gabriel Huerte Diniz ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;José M. Nunes Soares;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Marcelo Trevizan Pereira ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Paulo César Serrano ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Wilson Lourenço de Araújo ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Juliano Augusto Gonçalves Avante ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Adriano Wilson Gaio Netto ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Mauricio de Oliveira ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Rogério Teixeira de Souza ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Wagner Caetano Fidalgo ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Alison Fernando de Oliveira;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Rafael Nunes de Souza Lima ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Wesley Gonçalves ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Junio Rodrigues Brilhante;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Everaldo César dos Santos ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Daniel Silvério de Souza ;Aluno;A;M;PMSP;4;forças-segurança;;;;Brasil;;
+41;2018;Tatiana Fabrício;Aluna;A;F;PMSP;4;forças-segurança;;;;Brasil;;
+42;2019;Mariana M. Borges;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Cláudia Reina M. Coutinho;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Robson Gracioto Rodrigues;Aluno;A;M;PMA;2;orgao-ambiental;;;;Brasil;;
+42;2019;Edson Mauricio da Silva;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;José Lunardo da Silva;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Vanderlei Santos Rodrigues;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Luciano da Rocha Ibanhes;Aluno;A;M;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Michel Lopes Machado;Aluno;A;M;IBAMA;2;orgao-ambiental;;;;Brasil;;
+42;2019;Larissa Tinoco Barbosa;Aluna;A;F;Instituto Arara Azul;5;terceiro-setor;;;;Brasil;;
+42;2019;Vander Melquiades Fabrício de Jesus;Aluno;A;M;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Aline Cunha de Barros;Aluna;A;F;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Adenil Estevão Vieira;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Ludmila Costa Soares ;Aluna;A;F;Prefeitura Taquarussu;2;orgao-ambiental;;;;Brasil;;
+42;2019;Reginaldo Oliveira;Aluno;A;M;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Dione Sales dos Santos;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Fabio Barbosa Mardini ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Ronei Fernandes;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Viviane Holsback da Silveira ;Aluna;A;F;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Arlindo Altamiro de Castro;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Wesler Ricardo Sulacidelli ;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;José Mario Figueiredo de Oliveira ;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Roseane Soares Ramos ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Patrícia Ferroni Nogueira ;Aluna;A;F;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Fânia Lopes de Ramires Campos ;Aluna;A;F;GPF/IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Flávia Neri de Moura ;Aluna;A;F;GUC/IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Adriano Regis Carvalho Pereira;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;José Rodolfo Wendt de Oliveira ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Joanice Lube Battilane ;Aluna;A;F;IBAMA;2;orgao-ambiental;;;;Brasil;;
+42;2019;Gledson Rebeque Guimarães ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Elias Araujo Leigue ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Diego Maister Malta ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Rafael Cezar Cavaretto ;Aluno;A;M;MPE-MS;8;juridico;;;;Brasil;;
+42;2019;Marcelo Oliveira Vilela ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Rogério Barbosa dos Santos ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Reginaldo Marques Silva ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;José Humberto S da Silva ;Aluno;A;M;PF;4;forças-segurança;;;;Brasil;;
+42;2019;Beneides M de Medeiros Júnior ;Aluno;A;M;PF;4;forças-segurança;;;;Brasil;;
+42;2019;Paula Melina dos Ferri ;Aluna;A;F;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Ataíde Aparecido Pereira Silva ;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;José dos Santos;Aluno;A;M;PMRV;4;forças-segurança;;;;Brasil;;
+42;2019;Francisco Pinheiro da Silva ;Aluno;A;M;BPMRV;4;forças-segurança;;;;Brasil;;
+42;2019;Rubens da Silva Ribeiro ;Aluno;A;M;BPMA;4;forças-segurança;;;;Brasil;;
+42;2019;Eliane Alves Pinheiro ;Aluna;A;F;UEMS/IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Ariane Zanirato Coutini ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Andreia de Moura Victoria ;Aluna;A;F;FMADR;;;;;;Brasil;;
+42;2019;Inês Maria Leite de Lima ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Ellayne Fátima Loureiro de Freitas;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Julia Maldonado Berloffa ;Aluna;A;F;Prefeitura Deodápolis;2;orgao-ambiental;;;;Brasil;;
+42;2019;Regiane A. Stefanes Moraes ;Aluna;A;F;Prefeitura Jateí;2;orgao-ambiental;;;;Brasil;;
+42;2019;Osvaldo A R Soares ;Aluno;A;M;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Marichel Canazza de Macedo ;Aluna;A;F;Prefeitura Jateí;2;orgao-ambiental;;;;Brasil;;
+42;2019;Silvana Rodrigues D da Silva;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Roberta Martins;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Weledal Leal Tenório ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Marcelle Freitas Miranda;Aluno;A;M;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Rosa Floriano ;Aluna;A;F;EFRATA;;;;;;Brasil;;
+42;2019;Luciana Carla Mancino ;Aluna;A;F;GUC/IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Pedro Mendes Neto ;Aluno;A;M;Dides/CNP;;;;;;Brasil;;
+42;2019;Thais Barbosa Azambuja Caramori ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Marcelo Vilela de Oliveira ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Enoque Camposano ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Wagner da Silva Azevedo ;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Jiáncarlos De Moares ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Luis Gustavo Gomes de Oliveira;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Ronaldo Carlos A. dos Santos ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Cícero Fabrini Dias de Almeida ;Aluno;A;M;BPMA;4;forças-segurança;;;;Brasil;;
+42;2019;EmeSulon Bueno de Souza ;Aluno;A;M;BPMA;4;forças-segurança;;;;Brasil;;
+42;2019;Paulo Rogério Bezerra Chaves ;Aluno;A;M;BPMA;4;forças-segurança;;;;Brasil;;
+42;2019;Jhone Moreira Gomes ;Aluno;A;M;BPMRV;4;forças-segurança;;;;Brasil;;
+42;2019;Willam Mereiles;Aluno;A;M;BPMRV;4;forças-segurança;;;;Brasil;;
+42;2019;Sidinei Batista dos Santos ;Aluno;A;M;BPMA;4;forças-segurança;;;;Brasil;;
+42;2019;Aline Cardoso da Silva ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Heleno da Silva Mira ;Aluno;A;M;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Rafael Gonzaga Meneses de Almeida ;Aluno;A;M;BPMRV;4;forças-segurança;;;;Brasil;;
+42;2019;Alina B de Oliveira Duarte;Aluna;A;F;IMASUL/CRAS;2;orgao-ambiental;;;;Brasil;;
+42;2019;Janine Ferra Vieira de Almeida;Aluna;A;F;IAGRO;1;ensino-pesquisa;;;;Brasil;;
+42;2019;Kefany R de Ramalho ;Aluna;A;F;ITA;1;ensino-pesquisa;;;;Brasil;;
+42;2019;João Sulestes ;Aluno;A;M;SEMAGRO;1;ensino-pesquisa;;;;Brasil;;
+42;2019;Pedro Guilherme F. de Campos ;Aluno;A;M;Prefeitura Novo Horizonte do Sul;2;orgao-ambiental;;;;Brasil;;
+42;2019;Maria Eduarda Monterio Nascimento ;Aluna;A;F;UFMS;1;ensino-pesquisa;;;;Brasil;;
+42;2019;Caroline Milaneri Mazeto ;Aluna;A;F;UFMS;1;ensino-pesquisa;;;;Brasil;;
+42;2019;Caio B. S. Polisel ;Aluno;A;M;UFMS;1;ensino-pesquisa;;;;Brasil;;
+42;2019;Selene Peixoto Albuquerque ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Ana Paula Felício ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Ronildo Miranda dos Santos ;Aluno;A;M;PRF;4;forças-segurança;;;;Brasil;;
+42;2019;Marlon Cezer Cominetti ;Aluno;A;M;CRAS;2;orgao-ambiental;;;;Brasil;;
+42;2019;Vinicius Oliveira da Silva ;Aluno;A;M;PMMS;4;forças-segurança;;;;Brasil;;
+42;2019;Ademar Silva de Oliveira ;Aluno;A;M;PMMS;4;forças-segurança;;;;Brasil;;
+42;2019;Daniel Rabello ;Aluno;A;M;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Alcione Rodrigues Moreira;Aluna;A;F;PMA;4;forças-segurança;;;;Brasil;;
+42;2019;Daniela de Oliveira Pereira ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Thamy de A Moreira;Aluna;A;F;CEAS;;;;;;Brasil;;
+42;2019;Anna C. M. dos Santos;Aluna;A;F;IBAMA;2;orgao-ambiental;;;;Brasil;;
+42;2019;Neiva Guedes ;Aluna;A;F;ITA/UNESP;1;ensino-pesquisa;;;;Brasil;;
+42;2019;Rosildo Barcellos ;Aluno;A;M;PRF-MS;4;forças-segurança;;;;Brasil;;
+42;2019;Sandra Regina Dambros ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Rossana Vilamiu ;Aluna;A;F;INFRAERO;2;orgao-ambiental;;;;Brasil;;
+42;2019;Leonardo Tostes Palma ;Aluno;A;M;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Luciana Barcelona Campos ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Marcelle Braga ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Elizabete Burkhadt ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Juliana Martins Zaupa ;Aluna;A;F;Ministério Público;8;juridico;;;;Brasil;;
+42;2019;Naia H. Braguini ;Aluna;A;F;MP;8;juridico;;;;Brasil;;
+42;2019;Ilone Margarete M. de Mello;Aluna;A;F;GPF/IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Nara Teodoro Pontes ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Edmur Lavezo Gomes;Aluno;A;M;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Rosana Aparecida Gabriel ;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Marilezi da Silva Brasil;Aluna;A;F;IMASUL;2;orgao-ambiental;;;;Brasil;;
+42;2019;Penélope Leite Pereira Gonçalves ;Aluna;A;F;UFMS;1;ensino-pesquisa;;;;Brasil;;
+42;2019;José Humberto S da Silva ;Aluno;A;M;PF;4;forças-segurança;;;;Brasil;;
+42;2019;Enoque Carlos ;Aluno;A;M;Prefeitura;2;orgao-ambiental;;;;Brasil;;
+44;2018;Daniela Gelaim;Aluna;A;F;Ibama-Sul;2;orgao-ambiental;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+44;2018;Amanda Caraça;Aluna;A;F;Ibama-ES;2;orgao-ambiental;Vitória;ES;Sudeste;Brasil;-20.320154;-40.322209
+44;2018;Cláudia Rios;Aluna;A;F;ICMBio-CR9;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+44;2018;Camile Lugarini;Aluna;A;F;CEMAVE-ICMBio;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+44;2018;Alice Pereira;Aluna;A;F;Projeto Albatroz;5;terceiro-setor;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+44;2018;Sergei Weschelfelder;Aluno;A;M;Ibama-Sul;2;orgao-ambiental;Porto Alegre;RS;Sul;Brasil;-30.030037;-51.22866
+44;2018;Renato Gonçalves Rieboldt Oliveira;Aluno;A;M;Ibama-RJ;2;orgao-ambiental;Rio de Janeiro;RJ;Sul;Brasil;-22.876652;-43.227875
+44;2018;Alexandre Marques;Aluno;A;M;Ibama-Sede;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+44;2018;Fábio Zucharuto;Aluno;A;M;Ibama-Santos;2;orgao-ambiental;Santos;SP;Sudeste;Brasil;-23.933738;-46.331371
+44;2018;Luiz Louzada;Aluno;A;M;Ibama-CGT;2;orgao-ambiental;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+44;2018;Igor de Brito Silva;Aluno;A;M;Ibama-Sul;2;orgao-ambiental;Brasília;DF;Centro-Oeste;Brasil;-15.794087;-47.887905
+44;2018;Jairo Soares Nogueira;Aluno;A;M;Ibama;2;orgao-ambiental;Rio Grande;RS;Sul;Brasil;-32.050446;-52.08677
+44;2018;Vinícius Otávio Benoit Costa;Aluno;A;M;Ibama-Sul;2;orgao-ambiental;Curitiba;PR;Sul;Brasil;-25.432956;-49.271848
+44;2018;Vinícius Modesto de Oliveira;Aluno;A;M;Ibama-RJ;2;orgao-ambiental;Rio de Janeiro;RJ;Sudeste;Brasil;-22.876652;-43.227875
+44;2018;Fernando Polli;Aluno;A;M;Ibama;2;orgao-ambiental;Itajaí;PR;Sul;Brasil;-26.907426;-48.657023
+44;2018;Alexandre Costa ;Aluno;A;M;Ibama-SP;2;orgao-ambiental;São Paulo;SP;Sudeste;Brasil;-23.567387;-46.570383
+44;2018;Rafael de Oliveira Santana;Aluno;A;M;Ibama-ES;2;orgao-ambiental;Vitória;ES;Sudeste;Brasil;-20.320154;-40.322209
+44;2018;JefeSulon Bezerra;Aluno ;A ;M ;Ibama;2;orgao-ambiental;Itajaí;SC;Sul;Brasil;-26.907426;-48.657023
+44;2018;André Gustavo da Silva;Aluno ;A ;M ;Ibama;2;orgao-ambiental;Paranaguá;PR;Sul;Brasil;-25.506842;-48.524733
+44;2018;Paulo da Costa Maués Filho;Aluno ;A ;M ;Ibama;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+44;2018;Leonardo Tomás da Silva;Aluno ;A ;M ;Ibama;2;orgao-ambiental;Itajaí;SC;Sul;Brasil;-26.907426;-48.657023
+44;2018;Bruno Burbosz;Aluno ;A ;M ;Ibama;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+44;2018;Rodrigo Vieria do Nascimento;Aluno ;A ;M ;Ibama-Angra;2;orgao-ambiental;Angra dos Reis;RJ;Sudeste;Brasil;-23.009116;-44.319627
+44;2018;Luís Otávio Frota da Rocha;Aluno ;A ;M ;ICMBio-ESEC Carijós;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+44;2018;Gildo Coelho Bastos ;Aluno ;A ;M ;Ibama;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+44;2018;Vitor Martins Neto;Aluno ;A ;M ;Ibama;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
+44;2018;Antônio Alberto da Silveira Menezes;Aluno ;A ;M ;CEPSUL-ICMBio;2;orgao-ambiental;Itajaí;SC;Sul;Brasil;-26.907426;-48.657023
+44;2018;Fernando Niemeyer Fiedler;Aluno ;A ;M ;CEPSUL-ICMBio;2;orgao-ambiental;Itajaí;SC;Sul;Brasil;-26.907426;-48.657023
+44;2018;Guilherme Tavares Nunes;Aluno ;A ;M ;CEMAVE-ICMBio;2;orgao-ambiental;Florianópolis;SC;Sul;Brasil;-27.587796;-48.547637
