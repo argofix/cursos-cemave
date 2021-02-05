@@ -1,0 +1,787 @@
+---
+title: "Cursos CEMAVE - 1978 a 2020"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    theme: cerulean
+    social: ["menu"]
+    navbar:
+        - { icon: "fa-instagram", href: "https://www.instagram.com/icmbio.cemave/?hl=pt", align: right }
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+```{r libraries}
+
+library(tidyverse)
+library(data.table)
+library(descr)
+library(RColorBrewer)
+library(hrbrthemes)
+library(kableExtra)
+library(janitor)
+library(skimr)
+library(knitr)
+library(htmltools)
+library(DT)
+library(leaflet)
+library(shiny)
+library(plotly)
+library(ggthemes)
+library(forcats)
+library(crosstalk)
+library(summarywidget)
+
+options(knitr.table.format = "html")
+
+
+```
+
+```{r reading data}
+
+cursos <- read.csv("data/cursos.csv", h=T, sep=";") 
+
+alunos <- read.csv("data/alunos.csv", h=T, sep=";")
+
+instrutores <- read.csv("data/instrutores.csv", h=T, sep=";")
+
+cursos.alunos <- full_join(cursos, alunos, by = "ID")
+cursos.instrutores1 <- full_join(cursos, instrutores, by = "ID")
+
+```
+
+
+
+```{r}
+
+# ---------- inspecionando a estrutura do arquivo cursos.csv
+
+cursos$ID <- as.character(cursos$ID)
+cursos$modalidade <- as.factor(cursos$modalidade)
+cursos$latitude <- as.numeric(cursos$latitude)
+cursos$longitude <- as.numeric(cursos$longitude)
+#glimpse(cursos)
+
+
+# ---------- Excluindo o curso de R ministrado para o CEMAVE
+
+cursos <- cursos[(-43),]
+
+```
+
+
+
+```{r resumo dos dados, include=FALSE}
+
+# ----------- Resumo dos cursos
+
+total_instrutores <- sum(cursos$instrutores, NA, na.rm = TRUE)
+total_dias_curso <- sum(cursos$duracao.dias, NA, na.rm = TRUE)
+total_horas_curso <- sum(cursos$carga.horaria, NA, na.rm = TRUE)
+total_participantes <- sum(cursos$participantes, NA, na.rm = TRUE)
+total_alunos <- sum(cursos$alunos, NA, na.rm = TRUE)
+total_colaboradores <- sum(cursos$colaboradores, NA, na.rm = TRUE)
+
+#summary(cursos$alunos)
+
+#summary(cursos$instrutores)
+
+# ---------- Contagens
+
+# freq(cursos$foco.curso, user.missing = c("NA"))
+# freq(cursos$municipio, user.missing = c("NA"))
+# freq(cursos$UF, user.missing = c("NA"))
+# freq(cursos$alunos, user.missing = c("NA"))
+# freq(cursos$ano, user.missing = c("NA"))
+# freq(cursos$UF, user.missing = c("NA"))
+# 
+# freq(alunos$municipio, user.missing = c("NA"))
+# unique(alunos$municipio)
+# freq(alunos$UF, user.missing = c("NA"))
+# unique(alunos$UF)
+# freq(alunos$tipos.inst, user.missing = c("NA"))
+# unique(alunos$tipos.inst)
+# freq(alunos$instituicao, user.missing = c("NA"))
+# unique(alunos$instituicao)
+# 
+# freq(instrutores$participantes, user.missing = c("NA"))
+# freq(instrutores$genero, user.missing = c("NA"))
+# freq(instrutores$instituicao, user.missing = c("NA"))
+# freq(instrutores$tipos.inst, user.missing = c("NA"))
+# unique(instrutores$municipio)
+# freq(instrutores$UF, user.missing = c("NA"))
+# unique(instrutores$UF)
+# 
+# unique(instrutores$instituicao)
+# unique(instrutores$participantes)
+# unique(instrutores$municipio)
+# unique(instrutores$UF)
+# 
+# 
+# unique(cursos$municipio)
+# unique(cursos$UF)
+# unique(cursos$regiao)
+# unique(cursos$nome.curso)
+
+```
+
+
+Informações gerais
+===
+
+
+Row 
+-----------------------------------------------------------------------
+
+### Cursos ministrados
+
+```{r}
+
+
+valueBox(dim(cursos)[1], icon = "fas fa-book-open", color = "#F4A952")
+```
+
+### Dias de treinamento
+
+```{r}
+
+valueBox(total_dias_curso, icon = "fa-calendar")
+```
+
+
+### Horas de aula
+
+```{r}
+
+valueBox(total_horas_curso, icon = "fa-clock-o")
+```
+
+
+### Participantes
+
+```{r}
+
+valueBox(total_participantes, icon = "fa-users")
+```
+
+
+### Alunos
+
+```{r}
+
+valueBox(total_alunos, icon = "fa-user-graduate")
+```
+
+
+### Instrutores
+
+```{r}
+
+valueBox(total_instrutores, icon = "fas fa-chalkboard-teacher")
+```
+
+
+### Colaboradores
+
+```{r}
+
+valueBox(total_colaboradores, icon = "fas fa-people-carry")
+```
+
+Row
+-----------------------------------------------------------------------
+
+
+### Cursos por área
+
+```{r}
+
+# --------------------  Cursos por tema
+
+mycolors <- c("#dbead5", "#A2D8A2", "#677E67","#458B41")
+
+G1 <- cursos %>%
+group_by(foco.curso) %>%
+summarise(count = n()) %>%
+        plot_ly(labels = ~foco.curso,
+        values = ~count,
+        marker = list(colors = mycolors)) %>%
+add_pie(hole = 0.4) %>%
+layout(xaxis = list(zeroline = F,
+                    showline = F,
+                    showticklabels = F,
+                    showgrid = F),
+       yaxis = list(zeroline = F,
+                    showline = F,
+                    showticklabels=F,
+                    showgrid=F))
+G1
+
+```
+
+
+### Cursos por duração (em dias)
+
+```{r}
+
+G4 <- cursos %>%
+    ggplot( aes(x = duracao.dias)) +
+    geom_histogram( binwidth=1, fill="#69b3a2", color="#e9ecef", alpha=0.9) +
+    scale_x_continuous(name = "Dias de duração") +
+    scale_y_continuous(name = " ") +
+    #ggtitle("Tempo médio = 6.1 dias") +
+    theme_minimal() +
+    theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    )
+
+ggplotly(G4)
+
+```
+
+
+### Cursos por carga horária
+
+```{r}
+
+G5 <- cursos %>%
+    ggplot( aes(x = carga.horaria)) +
+    geom_histogram( binwidth=8, fill="#69b3a2", color="#e9ecef", alpha=0.9) +
+    scale_x_continuous(name = "Duração em horas") +
+    scale_y_continuous(name = " ") +
+    theme_minimal() +
+    theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    )
+    
+ggplotly(G5)
+
+```
+
+Row {data-height= 500}
+-------------------------------------------------------------------
+
+### Cursos por década
+
+```{r}
+
+# ------------------------- Número de cursos por década
+
+tempo.decada <- data.frame(
+  decada = c("1978-89", "1990-99", "2000-09", "2010-19", "2020-29"),
+  cursos = c(7, 13, 1, 23, 1)
+)
+
+G7 <- tempo.decada %>%
+    ggplot( aes(x = decada, y = cursos)) +
+    geom_col(color = "#e9ecef",  fill="#69b3a2") +
+    scale_x_discrete(name = " ") +
+    scale_y_continuous(name = " ") +
+    theme_minimal() +
+    theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    )
+    
+ggplotly(G7)
+
+```
+
+
+### Cursos por estado
+
+```{r}
+# ----------------------  Barplot cursos por estado horizontal
+
+cursos.estados <- data.frame(
+  estados=c("DF", "MS", "CE", "PR", "RS", "SC", "MT", "PE", "RJ", "RN", "PB", "SP", "BA", "MA", "MG"),
+  cursos=c(11, 5, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1)
+)
+
+G8 <- ggplot(cursos.estados, aes(x = fct_reorder(estados, cursos, .desc = F), y = cursos)) +
+  geom_bar(stat="identity", fill="#69b3a2") +
+  coord_flip() +
+  theme_minimal() +
+  theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+   legend.position="none" 
+ ) +
+ xlab(" ") +
+ ylab(" ")
+
+ggplotly(G8)
+
+```
+
+
+### Cursos por região
+
+```{r}
+# -------------------------  Cursos por região
+
+cursos.regiao <- data.frame(
+  regiao=c("Centro-Oeste", "Nordeste", "Sul", "Sudeste", "Norte"),
+  cursos=c(18, 11, 9, 5, 0)
+)
+
+coul5 <- brewer.pal(5, "Pastel2")
+
+G9 <- cursos.regiao %>%
+    ggplot( aes(x = fct_reorder(regiao, cursos, .desc = TRUE), y = cursos)) +
+    geom_col(color = "#e9ecef",  fill= coul5) +
+    scale_x_discrete(name = " ") +
+    scale_y_continuous(name = " ") +
+    theme_minimal() +
+    theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    )
+   
+ggplotly(G9)
+
+```
+
+
+Alunos
+=========================
+
+Row
+-------------------------------------------------------------------
+
+### Alunos por curso
+
+```{r}
+
+# ------------------------  Boxplot - Média de Alunos por curso
+
+fill <- "#69B3A2"
+line <- "#767f6d"
+
+
+#participantes <- merge(alunos, instrutores, all=T)
+#View(participantes)
+
+G2 <- ggplot(cursos, aes(y = alunos)) +
+        geom_boxplot(fill = fill, colour = line, outlier.colour = "#D92926") +
+        scale_x_discrete(name = "Alunos") +
+        scale_y_continuous(name = "") +
+        theme_classic() 
+        #theme(axis.line = element_line(colour = "#FFFFFF", size = 1))
+       
+ggplotly(G2)
+
+```
+
+### Cursistas por gênero
+
+```{r}
+
+# --------------------  Cursos por genero
+
+alunos.ajustado <- alunos[!(alunos$ID == 20),]
+
+alunos.genero <- data.frame(
+  genero = c("Masculino", "Feminino"),
+  numero = c(554, 319)
+)
+
+G10 <- alunos.genero %>%
+                 plot_ly(labels = ~genero,
+                 values = ~numero,
+                 marker = list(colors = mycolors)) %>%
+         add_pie(hole = 0.4) %>%
+         layout(xaxis = list(zeroline = F,
+                             showline = F,
+                             showticklabels = F,
+                             showgrid = F),
+                yaxis = list(zeroline = F,
+                             showline = F,
+                             showticklabels=F,
+                             showgrid=F))
+G10
+
+# G10 <- alunos.ajustado %>%
+#          group_by(categoria) %>%
+#          summarise(count = n()) %>%
+#                  plot_ly(labels = ~categoria,
+#                  values = ~count,
+#                  marker = list(colors = mycolors)) %>%
+#          add_pie(hole = 0.4) %>%
+#          layout(xaxis = list(zeroline = F,
+#                              showline = F,
+#                              showticklabels = F,
+#                              showgrid = F),
+#                 yaxis = list(zeroline = F,
+#                              showline = F,
+#                              showticklabels=F,
+#                              showgrid=F))
+# G10
+
+```
+
+
+### Origem dos alunos por área de atuação
+
+```{r}
+
+# ---------------------  Alunos por áreas de atuação
+
+origem <- data.frame(
+  area.atuacao = c("Órgãos Ambientais", "Forças Segurança", "Ensino & Pesquisa", "Museus & Afins", "Terceiro Setor", "Empresas", "Área Jurídica"),
+  numero = c(224, 213, 137, 18, 18, 12, 5)
+)
+
+# Usando uma palheta de cores
+
+coul1 <- brewer.pal(7, "Pastel2") 
+
+G11 <- origem %>%
+    ggplot( aes(x = fct_reorder(area.atuacao, numero, .desc = TRUE), y = numero)) +
+    geom_col(color = "#e9ecef",  fill= coul1) +
+    scale_x_discrete(name = " ") +
+    scale_y_continuous(name = " ") +
+    coord_flip() +
+    theme_minimal() +
+theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    )
+ggplotly(G11)
+
+```
+
+
+Row
+-------------------------------------
+
+### Alunos por estado
+
+```{r}
+
+# -------------------------  Alunos por estado
+
+alunos.estados <- data.frame(
+  estados=c("AL", "AM", "AP", "BA", "CE", "DF", "ES", "GO", "MA", "MG", "MS", "MT", "PA", "PB", "PE", "PI", "PR", "RJ", "RN", "RO", "RR", "RS", "SC", "SE", "SP", "TO"),
+  alunos=c(7, 4, 2, 14, 36, 134, 6, 13, 22, 28, 19, 9, 4, 30, 29, 4, 29, 50, 7, 4, 2, 51, 29, 5, 54, 1)
+)
+
+# Ordenando os dados do dataframe
+
+# obter a ordenação
+alunos.ordenados <- order(alunos.estados$alunos, decreasing = FALSE)
+
+# criar os níveis ordenados
+levels <- alunos.estados$estados[alunos.ordenados]
+
+# criar um factor com níveis ordenados
+alunos.estados$estados <- factor(alunos.estados$estados, levels=levels, ordered=TRUE)
+
+# ----------------------  Barplot alunos por estado 
+
+G12 <- ggplot(alunos.estados, aes(x=estados, y=alunos) ) +
+  geom_bar(stat="identity", fill="#69b3a2") +
+  coord_flip() +
+  theme_minimal() +
+  theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    ) +
+  xlab(" ") +
+  ylab(" ")
+
+ggplotly(G12)
+
+```
+
+
+### Alunos por região
+
+```{r}
+
+# ----------------------------  Alunos por região
+
+alunos.regiao <- data.frame(
+  regiao = c("Sudeste", "Centro-Oeste", "Nordeste", "Sul", "Norte"), 
+  alunos = c(121, 120, 119, 87, 16)
+)
+
+coul2 <- brewer.pal(5, "Pastel2") 
+
+G13 <- alunos.regiao %>%
+    ggplot( aes(x = fct_reorder(regiao, alunos, .desc = T), y = alunos)) +
+    geom_col(color = "#e9ecef",  fill= coul2) +
+    scale_x_discrete(name = "") +
+    scale_y_continuous(name = "") +
+    theme_minimal() +
+    theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    )
+   
+ggplotly(G13)
+
+```
+
+
+### Alunos por país
+
+```{r}
+
+# ---------------------------  Alunos por país
+
+alunos.pais <- data.frame(
+  pais = c("Brasil", "Bolívia", "Argentina", "Peru"), 
+  alunos = c(878, 8, 3, 1)
+)
+
+coul3 <- brewer.pal(4, "Pastel2")
+
+G14 <- alunos.pais %>%
+    ggplot(aes(x = fct_reorder(pais, alunos, .desc = T), y = alunos)) +
+    geom_col(color = "#e9ecef",  fill= coul3) +
+    scale_x_discrete(name = "") +
+    scale_y_continuous(name = " ") +
+    scale_y_log10() +
+    theme_minimal() +
+    theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    )
+   
+ggplotly(G14)
+
+```
+
+Instrutoria
+=======================
+
+Row 
+---------------------------------------------------------------------
+
+### Instrutores por curso
+
+```{r}
+
+# ------------------------  Boxplot - Média de Instrutores por curso
+
+
+G3 <- ggplot(cursos, aes(y = instrutores)) +
+        geom_boxplot(fill = fill, colour = line, outlier.colour = "#D92926") +
+        scale_x_discrete(name = "Instrutores") +
+        scale_y_continuous(name = "") +
+        theme_classic() 
+        #theme(axis.line = element_line(colour = "#FFFFFF", size = 1)
+       
+ggplotly(G3)
+
+```
+
+### Instrutoria por estado
+
+```{r}
+
+# -----------------------   Instrutoria por estado
+
+# Eliminado os NA da coluna estados
+
+
+instrutores.alterado1 <- instrutores[!is.na(instrutores$latitude),]
+instrutores.alterado2 <-instrutores.alterado1[!(instrutores.alterado1$participantes == "C. C. Olrog"),]
+
+
+G15 <- instrutores.alterado2 %>%
+  count(UF,) %>%
+  ggplot(aes(y = reorder(UF, n), 
+             x = n)) +
+  geom_col(fill="#69b3a2") +
+  xlab("Ações de instrutoria") +
+  ylab(" ") +
+  theme_minimal() +
+  theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    ) 
+
+ggplotly(G15)
+
+```
+
+
+Row 
+---------------------------------------------------------------------
+### Instrutores mais ativos
+
+
+```{r}
+
+# -------------------------  Instrutores mais ativos
+
+cursos.instrutores <- data.frame(
+  instrutor = c("Aílton Carneiro de Oliveira", "Patrícia Pereira Serafini", "João Luiz Xavier do Nascimento", "Inês de Lima S. do Nascimento", "Elenise Sipinski", "Antônio Emanuel B. A. de Souza", "Paulo de Tarso Zuquim Antas", "Albano Schulz Neto", "Renata Rossato"),
+  cursos = c(9, 8, 6, 6, 6, 5, 5, 4, 4)
+)
+
+G16 <- cursos.instrutores %>%
+  ggplot(aes(x = fct_reorder(instrutor, cursos, .desc = F), y =     cursos)) +
+  geom_col(color = "#e9ecef",  fill="#69b3a2") +
+  coord_flip() +
+  theme_minimal() +
+  theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    ) +
+  xlab(" ") +
+  ylab("Cursos ministrados") +
+  scale_y_continuous(limits=c(0, 10))
+ 
+ggplotly(G16)
+ 
+```
+
+### Áreas de atuação de origem dos instrutores
+
+```{r}
+
+# ---------------------  Instrutores por origem
+
+categorias.instrutores <- data.frame(
+  origem = c("Órgãos Ambientais", "Ensino & Pesquisa", "Terceiro Setor", "Museus & Afins", "Forças Segurança"),
+  numero = c(92, 24, 20, 6, 2)
+)
+
+coul4 <- brewer.pal(5, "Pastel2") 
+
+G17 <- categorias.instrutores %>%
+    ggplot( aes(x = fct_reorder(origem, numero, .desc = F), y = numero)) +
+    geom_col(color = "#e9ecef",  fill= coul4) +
+    scale_x_discrete(name = " ") +
+    scale_y_continuous(name = "Número de instrutores") +
+    coord_flip() +
+    theme_minimal() +
+    theme(
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    ) 
+   
+ggplotly(G17)
+
+```
+
+
+Espacialização
+===
+
+Row {data-height=750}
+-------------------------------------------------------------------
+
+### Onde os cursos foram ministrados
+
+```{r }
+
+renderLeaflet({
+    
+
+mapa_cursos <- cursos %>% mutate(popup_info = paste ("Treinamento:", nome.curso, "<br/>", "Realizado em:", ano, "<br/>", "Local:", local.curso, "<br/>", "Cidade:", municipio, "<br/>","Estado:", UF, "<br/>", "Modalidade:", modalidade, "<br/>", "Duração em dias:", duracao.dias, "<br/>", "Carga Horária:", carga.horaria)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
+
+
+leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_cursos, lat = ~latitude, lng = ~longitude, radius = ~3, color = "#00240B", popup = ~popup_info) # inserindo a janela popup no código
+
+})
+
+```
+
+
+### Origem dos alunos 
+
+```{r}
+
+renderLeaflet({
+    
+
+mapa_alunos <- cursos.alunos %>% mutate(popup_info = paste ("Aluno:", participantes.y, "<br/>", "Curso:", nome.curso, "<br/>", "Ano de participação:", ano.y, "<br/>", "Instituição de origem:", instituicao, "<br/>", "Local de origem:", municipio.y, "<br/>","UF:", UF.y)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
+
+
+leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_alunos, lat = ~latitude.y, lng = ~longitude.y, radius = ~3, color = "#1F0AFF", popup = ~popup_info) # inserindo a janela popup no código
+
+})
+
+```
+
+
+### Origem dos instrutores
+
+```{r}
+renderLeaflet({
+    
+
+mapa_instrutores <- cursos.instrutores1 %>% mutate(popup_info = paste ("Instrutores:", instrutores.origem, "<br/>", "Curso:", nome.curso, "<br/>", "Ano de participação:", ano.y, "<br/>", "Instituição de origem:", instituicao, "<br/>", "Local de origem:", municipio.y, "<br/>","UF:", UF.y)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
+
+
+leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_instrutores, lat = ~latitude.y, lng = ~longitude.y, radius = ~3, color = "#EB0000", popup = ~popup_info) # inserindo a janela popup no código
+
+})
+
+```
+
+
+Row {data-height=250}
+----------------
+
+```{r}
+
+tabela_cursos <- subset(cursos, select = -c(ID, categoria, latitude, longitude, instrutores.origem, programa.curso, lista.participantes, relatorio.descritivo, fotos, origem.informacoes, observacoes))
+
+datatable(tabela_cursos, extensions="Scroller", style="bootstrap", class="compact", width="100%", options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
+
+```
+
+
+Sobre
+========================================
+
+
+Column 
+------------------------------------------------------------------
+
+### Relatório
+
+
+#### Os cursos ministrados pelo CEMAVE
+
+Este relatório apresenta os resultados do processo de compilação, sistematização e análise de dados relativos aos cursos ministrados pelo Centro Nacional de Pesquisa e Conservação de Aves Silvestres – CEMAVE no período de 1978 a 2020. A iniciativa teve como objetivos sistematizar o esforço de capacitação realizado pelo Centro ao longo de sua existência e disponibilizar essa informação ao público em geral. Como para alguns cursos (especialmente os mais antigos) foram obtidas apenas informações parciais, nos  resultados aqui apresentados o número de registros considerados para diferentes variáveis pode diferir, a depender do aspecto avaliado. Apesar das lacunas detectadas nos registros levantados, procurou-se extrair a maior quantidade possível de informações dos dados disponíveis.
+
+Nas primeiras décadas predominaram no CEMAVE os cursos sobre aves com foco em atividades práticas em campo (p. ex.: capturas com redes de neblina, anilhamento, identificação e registros comportamentais) e que incluiam a execução de pequenos projetos em grupo ou individualmente. Os cursos eram, em geral, mais longos (9, 10, 11, até 17 dias). Com o passar dos anos houve uma tendência de redução na duração dos cursos, com uma progressiva convergência para o predomínio de cursos com 5 dias (40 horas – uma semana). Esses treinamentos, com foco nas atividades práticas de campo e capacitação para o anilhamento estão, até hoje, fortemente associados à imagem institucional do CEMAVE como centro especializado em pesquisa e conservação de aves, nacionalmente conhecido e reconhecido pela comunidade ornitológica do país. As iniciativas de capacitação do Centro estão intrinsicamente ligadas ao seu próprio processo de criação e ao interesse e necessidade existentes, à época, na formação de profissionais para atuar na pesquisa e conservação de aves no Brasil.  
+
+Ao longo dos anos o Centro ministrou também cursos de menor duração, voltados à capacitação de um público atuante na área de fiscalização/proteção e reabilitação de aves (cursos voltados especialmente aos fiscais do Ibama, de órgãos ambientais estaduais e também a profissionais de Centros de Triagem de Animais Silvestres - CETAS). A demanda por esse tipo de curso vem aumentando em anos recentes, reflexo possivelmente também das ações previstas nos Planos de Ação Nacionais para a conservação de espécies ameaçadas. Nos últimos anos têm surgido ainda demandas pontuais no âmbito acadêmico para cursos mais teóricos sobre biologia e conservação de aves e sobre as ações desenvolvidas pelo CEMAVE, incluindo treinamentos para o uso de aves em programas de monitoramento. Esse cenário geral parece ter contribuído para o aumento do número de cursos ministrados no período de 2010 a 2020.
+
+Os cursos ministrados pelo CEMAVE têm uma grande abrangência tanto em termos geográficos quanto em termos da área de atuação de origem dos alunos. Já ministramos cursos em grande parte dos estados brasileiros, alcançando alunos com diferentes perfis de atuação profissional, provenientes de 26 estados e de todas as regiões do país, além de alguns alunos de países vizinhos. Atualmente há espaço para ampliação do número de participantes provenientes de instituições de ensino e pesquisa, seja como cursistas ou como instrutores.
+
+
+Interessado em participar de um curso oferecido pelo CEMAVE?  
+
+Visite regularmente [nosso site](https://www.icmbio.gov.br/cemave) e nos siga em nosso [instagram](https://www.instagram.com/icmbio.cemave/?hl=pt) para receber informações sobre o lançamento dos editais para nossos treinamentos.
+
+Documento gerado em '`r format(Sys.Date(), "%d %B de %Y")`'.
+
