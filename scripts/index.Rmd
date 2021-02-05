@@ -780,7 +780,7 @@ Os cursos ministrados pelo CEMAVE têm uma grande abrangência tanto em termos g
 
 Interessado em participar de um curso oferecido pelo CEMAVE?  
 
-Visite regularmente [nosso site](https://www.icmbio.gov.br/cemave) e nos siga em nosso [instagram](https://www.instagram.com/icmbio.cemave/?hl=pt) para receber informações sobre o lançamento dos editais para nossos treinamentos.
+Visite regularmente [nosso site](https://www.icmbio.gov.br/cemave) e siga nosso [instagram](https://www.instagram.com/icmbio.cemave/?hl=pt) para receber informações sobre o lançamento dos editais para nossos treinamentos.
 
 Documento gerado em '`r format(Sys.Date(), "%d %B de %Y")`'.
 
