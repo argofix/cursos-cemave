@@ -30,6 +30,7 @@ library(knitr)
 library(htmltools)
 library(DT)
 library(leaflet)
+library(sf)
 library(shiny)
 library(plotly)
 library(ggthemes)
@@ -269,7 +270,7 @@ ggplotly(G5)
 
 ```
 
-Row {data-height= 500}
+Row 
 -------------------------------------------------------------------
 
 ### Cursos por década
@@ -699,15 +700,16 @@ Row {data-height=700}
 
 ```{r }
 
-#renderLeaflet({
-    
-
 mapa_cursos <- cursos %>% mutate(popup_info = paste ("Treinamento:", nome.curso, "<br/>", "Realizado em:", ano, "<br/>", "Local:", local.curso, "<br/>", "Cidade:", municipio, "<br/>","Estado:", UF, "<br/>", "Modalidade:", modalidade, "<br/>", "Duração em dias:", duracao.dias, "<br/>", "Carga Horária:", carga.horaria)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
 
 
-leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_cursos, lat = ~latitude, lng = ~longitude, radius = ~3, color = "#00240B", popup = ~popup_info) # inserindo a janela popup no código
-
-#})
+leaflet() %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "Imágenes de ESRI") %>%
+  addProviderTiles(providers$Stamen.TonerLite, group = "Stamen Toner Lite") %>%
+  addProviderTiles(providers$OpenStreetMap.Mapnik, group = "OpenStreetMap") %>%
+  addCircleMarkers(data=mapa_cursos, lat = ~latitude, lng = ~longitude, radius = ~3, color = "#00240B", popup = ~popup_info) %>% # inserindo a janela popup no código
+  addLayersControl(baseGroups = c("OpenStreetMap", "Stamen Toner Lite", "Imágenes de ESRI")) %>%
+  addMiniMap(toggleDisplay = TRUE, tiles = providers$Stamen.TonerLite)
 
 ```
 
@@ -716,15 +718,10 @@ leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_cursos, lat = ~latitude,
 
 ```{r}
 
-#renderLeaflet({
-    
-
-mapa_alunos <- cursos.alunos %>% mutate(popup_info = paste ("Aluno:", participantes.y, "<br/>", "Curso:", nome.curso, "<br/>", "Ano de participação:", ano.y, "<br/>", "Instituição de origem:", instituicao, "<br/>", "Local de origem:", municipio.y, "<br/>","UF:", UF.y)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
+mapa_alunos <- cursos.alunos %>% mutate(popup_info = paste ("Aluno:", participantes.y, "<br/>", "Treinamento:", nome.curso, "<br/>", "Ano de participação:", ano.y, "<br/>", "Instituição de origem:", instituicao, "<br/>", "Local de origem:", municipio.y, "<br/>","UF:", UF.y)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
 
 
 leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_alunos, lat = ~latitude.y, lng = ~longitude.y, radius = ~3, color = "#1F0AFF", popup = ~popup_info) # inserindo a janela popup no código
-
-#})
 
 ```
 
@@ -733,27 +730,22 @@ leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_alunos, lat = ~latitude.
 
 ```{r}
 
-#renderLeaflet({
-    
-
-mapa_instrutores <- cursos.instrutores1 %>% mutate(popup_info = paste ("Instrutores:", instrutores.origem, "<br/>", "Curso:", nome.curso, "<br/>", "Ano de participação:", ano.y, "<br/>", "Instituição de origem:", instituicao, "<br/>", "Local de origem:", municipio.y, "<br/>","UF:", UF.y)) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
+mapa_instrutores <- cursos.instrutores1 %>% mutate(popup_info = paste ("Instrutores:", instrutores.origem, "<br/>", "Treinamento:", nome.curso, "<br/>", "Ano de realização:", ano.y, "<br/>")) # criando uma coluna na tabela de dados com os dados que serão mostrados na janela popup
 
 
 leaflet() %>% addTiles() %>% addCircleMarkers(data=mapa_instrutores, lat = ~latitude.y, lng = ~longitude.y, radius = ~3, color = "#EB0000", popup = ~popup_info) # inserindo a janela popup no código
-
-#})
 
 ```
 
 
 Row {data-height=300}
-----------------
+-------------------------------------------------------------------
 
 ```{r}
 
-tabela_cursos <- subset(cursos, select = -c(ID, categoria, latitude, longitude, instrutores.origem, programa.curso, lista.participantes, relatorio.descritivo, fotos, origem.informacoes, observacoes))
+tabela_cursos <- subset(cursos, select = -c(ID, periodo, carga.horaria, local.curso, organizadores, categoria, latitude, longitude, instrutores.origem, programa.curso, lista.participantes, relatorio.descritivo, fotos, origem.informacoes, observacoes))
 
-datatable(tabela_cursos, extensions="Scroller", style="bootstrap", class="compact", width="100%", options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
+datatable(tabela_cursos, extensions="Scroller", style="bootstrap", class="compact", width="90%", options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
 
 ```
 
